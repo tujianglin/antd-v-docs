@@ -25,5 +25,16 @@ export default {
   ],
   rules: {
     'prettier/prettier': true,
+    'no-empty-source': null,
+    'no-descending-specificity': null,
+    'at-rule-no-unknown': null,
+    'import-notation': null,
+    'custom-property-pattern': null,
+    'rule-empty-line-before': [
+      'always',
+      {
+        ignore: ['after-comment', 'first-nested'],
+      },
+    ],
   },
 };
