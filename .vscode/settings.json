@@ -38,6 +38,6 @@
     "*.env": "$(capture).env.*",
     "README.md": "README*,CHANGELOG*,LICENSE,CNAME",
     "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml,.gitattributes,.gitignore,.gitpod.yml,.npmrc,.browserslistrc,.node-version,.git*,.tazerc.json",
-    "eslint.config.js": ".eslintignore,.prettierignore,.stylelintignore,.commitlintrc.mjs,.prettierrc,stylelint.config.*,lint-staged.config.*,.ls-lint*,cspell.json,lefthook.yml"
+    "eslint.config.mjs": ".eslintignore,.prettierignore,.stylelintignore,commitlint.config.*,prettier.config.*,stylelint.config.*,lint-staged.config.*,.ls-lint*,cspell.json,lefthook.yml"
   }
 }

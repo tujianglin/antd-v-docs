@@ -1,11 +1,11 @@
-import { createApp } from "vue";
-import "./styles/index.css";
-import App from "./App.vue";
+import { createApp } from 'vue';
+import App from './App.vue';
+import './styles/index.css';
 
 const bootstrap = async () => {
   const app = createApp(App);
 
-  app.mount("#app");
+  app.mount('#app');
 };
 
 bootstrap();

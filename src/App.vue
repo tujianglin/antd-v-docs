@@ -1,6 +1,4 @@
-<script lang="tsx" setup>
-import {} from "vue";
-</script>
+<script lang="tsx" setup></script>
 <template>
   <div>11</div>
 </template>

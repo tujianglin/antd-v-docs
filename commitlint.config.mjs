@@ -1,6 +1,14 @@
 /** @type {import('cz-git').UserConfig} */
 export default {
-  rules: {},
+  rules: {
+    'body-leading-blank': [2, 'always'],
+    'footer-leading-blank': [1, 'always'],
+    'header-max-length': [2, 'always', 300],
+    'subject-empty': [2, 'never'],
+    'type-empty': [2, 'never'],
+    'subject-case': [0],
+    'type-enum': [2, 'always', ['feat', 'fix', 'docs', 'style', 'refactor', 'perf', 'test', 'build', 'ci', 'chore', 'revert']],
+  },
   prompt: {
     alias: { fd: 'docs: fix typos' },
     messages: {
@@ -30,8 +38,8 @@ export default {
       { value: 'chore', name: 'chore:    不修改src或测试文件的其他更改', emoji: ':hammer:' },
       { value: 'revert', name: 'revert:   还原上一个提交', emoji: ':rewind:' },
     ],
-    useEmoji: true,
-    emojiAlign: 'center',
+    useEmoji: false,
+    emojiAlign: 'left',
     useAI: false,
     aiNumber: 1,
     themeColorCode: '',
@@ -44,7 +52,7 @@ export default {
     upperCaseSubject: false,
     markBreakingChangeMode: false,
     allowBreakingChanges: ['feat', 'fix'],
-    breaklineNumber: 100,
+    breaklineNumber: 300,
     breaklineChar: '|',
     skipQuestions: [],
     issuePrefixes: [{ value: 'closed', name: 'closed:   ISSUES has been processed' }],
