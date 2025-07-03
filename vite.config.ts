@@ -9,6 +9,7 @@ export default defineConfig(({ command, mode }) => {
   const env = wrapperEnv(rawEnv);
   return {
     plugins: createVitePlugins(rawEnv, mode),
+
     build: {
       target: 'es2015',
       rollupOptions: {
@@ -26,6 +27,13 @@ export default defineConfig(({ command, mode }) => {
     server: {
       host: true,
       port: env.VITE_PORT,
+      proxy: {
+        '/api': {
+          target: 'http://127.0.0.1:4523/m1/6705469-6415282-default',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/api/, ''),
+        },
+      },
       warmup: {
         // 预热文件
         clientFiles: ['./index.html', './src/main.ts', './src/{views,layouts,router,store,api,adapter}/*'],
