@@ -1,6 +1,18 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
+#app {
+  @apply h-[100vh] w-[100vw];
+}
+
 @theme {
-  --color-primary: red;
+  --color-primary: #3b8e8e;
+  --color-primary-400: #56a9a9;
+  --color-main-bg: #ebecee;
+}
+
+@layer components {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
 }

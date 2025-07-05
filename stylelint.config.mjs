@@ -1,6 +1,6 @@
 /** @type {import('stylelint').Config} */
 export default {
-  extends: ['stylelint-config-standard', 'stylelint-config-recess-order'],
+  extends: ['stylelint-config-standard', 'stylelint-config-tailwindcss', 'stylelint-config-recess-order'],
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts', '**/*.json', '**/*.md', '**/iconfont/**'],
   plugins: ['stylelint-order', '@stylistic/stylelint-plugin', 'stylelint-prettier'],
   overrides: [
@@ -28,6 +28,7 @@ export default {
     'no-empty-source': null,
     'no-descending-specificity': null,
     'at-rule-no-unknown': null,
+    'at-rule-no-deprecated': null,
     'import-notation': null,
     'custom-property-pattern': null,
     'rule-empty-line-before': [
