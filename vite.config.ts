@@ -8,6 +8,7 @@ export default defineConfig(({ command, mode }) => {
   const rawEnv = loadEnv(mode, root);
   const env = wrapperEnv(rawEnv);
   return {
+    base: '.',
     plugins: createVitePlugins(rawEnv, mode),
 
     build: {

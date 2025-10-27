@@ -5,6 +5,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx';
 import type { PluginOption } from 'vite';
 import { createHtmlPlugin } from 'vite-plugin-html';
 import { VitePWA } from 'vite-plugin-pwa';
+import { viteSingleFile } from 'vite-plugin-singlefile';
 import { wrapperEnv } from '../uitls';
 
 export function createVitePlugins(rawEnv: Record<string, string>, mode: string) {
@@ -16,6 +17,7 @@ export function createVitePlugins(rawEnv: Record<string, string>, mode: string) 
     tailwindcss(),
     viteVueI18nPlugin({ compositionOnly: true, fullInstall: true, runtimeOnly: true }),
     createHtmlPlugin({ minify: true }),
+    viteSingleFile(),
     isDev &&
       VitePWA({
         injectRegister: false,
