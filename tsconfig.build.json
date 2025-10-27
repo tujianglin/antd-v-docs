@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "noImplicitAny": false,
+    "declaration": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "lib": ["esnext", "dom", "DOM.Iterable"],
+    "moduleResolution": "bundler",
+    "jsx": "preserve",
+    "target": "esnext",
+    "module": "es2015",
+    "types": ["@types/node"],
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test.*"]
+}

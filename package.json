@@ -5,15 +5,22 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && vue-tsc --project ./tsconfig.build.json --emitDeclarationOnly && tsc-alias -p tsconfig.build.json",
     "preview": "vite preview",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "imports": {
     "#/*": "./src/*"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
+    "@theojs/lumen": "^6.4.4",
+    "@vitepress-demo-preview/component": "^2.6.1",
+    "@vitepress-demo-preview/core": "^0.3.0",
+    "@vitepress-demo-preview/plugin": "^1.4.1",
     "@vueuse/components": "^13.5.0",
     "@vueuse/core": "^13.5.0",
     "antd-v": "0.0.6",
@@ -52,18 +59,22 @@
     "prettier": "3.6.2",
     "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-tailwindcss": "^0.6.13",
+    "sass-embedded": "^1.93.2",
+    "shiki": "^3.14.0",
     "stylelint": "^16.21.0",
     "stylelint-config-recess-order": "^7.1.0",
     "stylelint-config-standard": "^38.0.0",
     "stylelint-config-tailwindcss": "^1.0.0",
     "stylelint-order": "^7.0.0",
     "stylelint-prettier": "^5.0.3",
+    "tsc-alias": "^1.8.16",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.35.1",
     "vite": "^7.0.0",
     "vite-plugin-html": "^3.2.2",
     "vite-plugin-pwa": "^1.0.1",
     "vite-plugin-singlefile": "^2.3.0",
+    "vitepress": "2.0.0-alpha.12",
     "vue-eslint-parser": "^10.2.0",
     "vue-tsc": "^2.2.10"
   }

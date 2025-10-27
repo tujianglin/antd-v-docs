@@ -1,24 +1,29 @@
-import { defineConfig, loadEnv } from 'vite';
-import { wrapperEnv } from './build/uitls';
-import { createVitePlugins } from './build/vite/index';
+import tailwindcss from '@tailwindcss/vite';
+import vue from '@vitejs/plugin-vue';
+import vueJsx from '@vitejs/plugin-vue-jsx';
+import { resolve } from 'path';
+import { defineConfig } from 'vite';
 
-export default defineConfig(({ command, mode }) => {
-  const root = process.cwd();
+export default defineConfig(({ command }) => {
   const isBuild = command === 'build';
-  const rawEnv = loadEnv(mode, root);
-  const env = wrapperEnv(rawEnv);
   return {
     base: '.',
-    plugins: createVitePlugins(rawEnv, mode),
+    plugins: [vue(), vueJsx(), tailwindcss()],
 
     build: {
       target: 'es2015',
       rollupOptions: {
+        external: ['vue'],
         output: {
-          assetFileNames: '[ext]/[name]-[hash].[ext]',
-          chunkFileNames: 'js/[name]-[hash].js',
-          entryFileNames: 'jse/index-[name]-[hash].js',
+          globals: {
+            vue: 'Vue',
+          },
         },
+      },
+      lib: {
+        entry: resolve(__dirname, 'src/index.ts'),
+        name: 'index',
+        fileName: 'index',
       },
       esbuild: {
         drop: isBuild ? ['debugger'] : [],
@@ -27,18 +32,7 @@ export default defineConfig(({ command, mode }) => {
     },
     server: {
       host: true,
-      port: env.VITE_PORT,
-      proxy: {
-        '/api': {
-          target: 'http://127.0.0.1:4523/m1/6705469-6415282-default',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/api/, ''),
-        },
-      },
-      warmup: {
-        // 预热文件
-        clientFiles: ['./index.html', './src/main.ts', './src/{views,layouts,router,store,api,adapter}/*'],
-      },
+      port: 3132,
     },
   };
 });

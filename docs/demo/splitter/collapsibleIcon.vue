@@ -22,9 +22,9 @@ const showIconMode = ref<'auto' | boolean>(true);
 </script>
 
 <template>
-  <Flex vertical justify="center" :gap="20">
+  <Flex vertical :gap="20">
     <Flex :gap="5">
-      <p>ShowCollapsibleIcon:</p>
+      <span>ShowCollapsibleIcon:</span>
       <RadioGroup :options="options" v-model:value="showIconMode" />
     </Flex>
     <Splitter style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)">

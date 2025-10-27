@@ -54,7 +54,6 @@ export default defineConfig([
       'no-case-declarations': 'error',
       'no-class-assign': 'error',
       'no-compare-neg-zero': 'error',
-      'no-console': ['error', { allow: ['warn', 'error'] }],
       'no-const-assign': 'error',
       'no-control-regex': 'error',
       'no-debugger': 'error',
