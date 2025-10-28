@@ -80,7 +80,7 @@ outline: deep
 | mode | 选择器模式，用于配置单色与渐变 | `'single' \| 'gradient' \| ('single' \| 'gradient')[]` | `single` | 5.20.0 |
 | open | 是否显示弹出窗口 | boolean | - |  |
 | presets | 预设的颜色 | [PresetColorType](#presetcolortype) | - |  |
-| placement | 弹出窗口的位置 | 同 `Tooltips` 组件的 [placement](/components/tooltip-cn/#api) 参数设计 | `bottomLeft` |  |
+| placement | 弹出窗口的位置 | 同 `Tooltips` 组件的 placement 参数设计 | `bottomLeft` |  |
 | panelRender | 自定义渲染面板 | `(panel: VNode, extra: { components: { Picker: FC; Presets: FC } }) => VNode` | - | 5.7.0 |
 | showText | 显示颜色文本 | boolean \| `(color: Color) => VNode` | - | 5.7.0 |
 | size | 设置触发器大小 | `large` \| `middle` \| `small` | `middle` | 5.7.0 |

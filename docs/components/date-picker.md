@@ -119,7 +119,7 @@ outline: deep
 | locale | 国际化配置 | object | [默认配置](https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json) |  |
 | minDate | 最小日期，同样会限制面板的切换范围 | dayjs | - | 5.14.0 |
 | maxDate | 最大日期，同样会限制面板的切换范围 | dayjs | - | 5.14.0 |
-| mode | 日期面板的状态（[设置后无法选择年份/月份？](/docs/react/faq#当我指定了-datepickerrangepicker-的-mode-属性后点击后无法选择年份月份)） | `time` \| `date` \| `month` \| `year` \| `decade` | - |  |
+| mode | 日期面板的状态 | `time` \| `date` \| `month` \| `year` \| `decade` | - |  |
 | needConfirm | 是否需要确认按钮，为 `false` 时失去焦点即代表选择。当设置 `multiple` 时默认为 `false` | boolean | - | 5.14.0 |
 | nextIcon | 自定义下一个图标 | VNode | - | 4.17.0 |
 | open(v-model) | 控制弹层是否展开 | boolean | - |  |
@@ -157,7 +157,7 @@ outline: deep
 | pickerValue | 面板日期，可以用于受控切换面板所在日期。配合 `onPanelChange` 使用。 | [dayjs](https://day.js.org/) | - | 5.14.0 |
 | renderExtraFooter | 在面板中添加额外的页脚 | `(mode) => VNode` | - |  |
 | showNow | 显示当前日期时间的快捷选择 | boolean | - |  |
-| showTime | 增加时间选择功能 | Object \| boolean | [TimePicker Options](/components/time-picker-cn#api) |  |
+| showTime | 增加时间选择功能 | Object \| boolean | TimePicker Options |  |
 | showTime.defaultValue | 设置用户选择日期时默认的时分秒，[例子](#date-picker-demo-disabled-date) | [dayjs](https://day.js.org/) | dayjs() |  |
 | showWeek | DatePicker 下展示当前周 | boolean | false | 5.14.0 |
 | value(v-model) | 日期 | [dayjs](https://day.js.org/) | - |  |
@@ -223,7 +223,7 @@ outline: deep
 | presets | 预设时间范围快捷选择，自 `5.8.0` 起 value 支持函数返回值 | `{ label: VNode, value: (Dayjs \| (() => Dayjs))\[] }\[] ` | - |  |
 | renderExtraFooter | 在面板中添加额外的页脚 | `() => VNode` | - |  |
 | separator | 设置分隔符 | VNode | `<SwapRightOutlined />` |  |
-| showTime | 增加时间选择功能 | Object\|boolean | [TimePicker Options](/components/time-picker-cn#api) |  |
+| showTime | 增加时间选择功能 | Object\|boolean | TimePicker Options |  |
 | showTime.defaultValue | 设置用户选择日期时默认的时分秒，[例子](#date-picker-demo-disabled-date) | [dayjs](https://day.js.org/)\[] | \[dayjs(), dayjs()] |  |
 | value(v-model) | 日期 | [dayjs](https://day.js.org/)\[] | - |  |
 | onCalendarChange | 待选日期发生变化的回调。`info` 参数自 4.4.0 添加 | function(dates: \[dayjs, dayjs], dateStrings: \[string, string], info: { range:`start`\|`end` }) | - |  |
@@ -253,7 +253,7 @@ export type FormatType =
 
 ### 如何修改周的起始日？
 
-请使用正确的[语言包](/docs/react/i18n-cn)（[#5605](https://github.com/ant-design/ant-design/issues/5605)），或者修改 dayjs 的 `locale` 配置：<https://codesandbox.io/s/dayjs-day-of-week-x9tuj2?file=/demo.tsx>
+请使用正确的（[#5605](https://github.com/ant-design/ant-design/issues/5605)），或者修改 dayjs 的 `locale` 配置：<https://codesandbox.io/s/dayjs-day-of-week-x9tuj2?file=/demo.tsx>
 
 ```js
 import dayjs from 'dayjs';

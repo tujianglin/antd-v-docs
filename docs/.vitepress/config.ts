@@ -10,6 +10,11 @@ export default defineConfig({
       port: 1122,
       host: true,
     },
+    resolve: {
+      alias: {
+        'dayjs/plugin/advancedFormat': 'dayjs/plugin/advancedFormat.js',
+      },
+    },
   },
   title: 'Antd-v',
   description: '基于 Vue3 高仿 React Antd 组件库',
@@ -65,11 +70,6 @@ export default defineConfig({
         collapsed: false,
         items: [],
       },
-      // {
-      //   text: '表单组件',
-      //   collapsed: false,
-      //   items: [{ text: 'Form 表单', link: 'components/form' }],
-      // },
     ],
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
