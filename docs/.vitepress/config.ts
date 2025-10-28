@@ -52,6 +52,7 @@ export default defineConfig({
           { text: 'DatePicker 日期选择器', link: 'components/date-picker' },
           { text: 'Input 输入框', link: 'components/input' },
           { text: 'InputNumber 数字输入框', link: 'components/input-number' },
+          { text: 'Mentions 提及', link: 'components/mentions' },
           // { text: 'Checkbox 复选框', link: 'components/checkbox' },
         ],
       },

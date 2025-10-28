@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { UserOutlined } from '@ant-design/icons-vue';
 import { InputNumber } from 'antd-v';
 import { h } from 'vue';

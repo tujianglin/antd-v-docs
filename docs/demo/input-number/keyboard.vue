@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { Checkbox, InputNumber, Space } from 'antd-v';
 import { ref } from 'vue';
 

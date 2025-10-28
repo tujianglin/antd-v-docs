@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { InputNumber } from 'antd-v';
 </script>
 

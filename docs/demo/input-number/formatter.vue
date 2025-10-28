@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { InputNumber, Space } from 'antd-v';
 
 const formatter = (value: number) => {
