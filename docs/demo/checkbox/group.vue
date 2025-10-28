@@ -8,20 +8,20 @@ const plainOptions = ['Apple', 'Pear', 'Orange'];
 interface OptionType {
   label: string;
   value: string;
-  className?: string;
+  class?: string;
   disabled?: boolean;
 }
 
 const options: OptionType[] = [
-  { label: 'Apple', value: 'Apple', className: 'label-1' },
-  { label: 'Pear', value: 'Pear', className: 'label-2' },
-  { label: 'Orange', value: 'Orange', className: 'label-3' },
+  { label: 'Apple', value: 'Apple', class: 'label-1' },
+  { label: 'Pear', value: 'Pear', class: 'label-2' },
+  { label: 'Orange', value: 'Orange', class: 'label-3' },
 ];
 
 const optionsWithDisabled: OptionType[] = [
-  { label: 'Apple', value: 'Apple', className: 'label-1' },
-  { label: 'Pear', value: 'Pear', className: 'label-2' },
-  { label: 'Orange', value: 'Orange', className: 'label-3', disabled: false },
+  { label: 'Apple', value: 'Apple', class: 'label-1' },
+  { label: 'Pear', value: 'Pear', class: 'label-2' },
+  { label: 'Orange', value: 'Orange', class: 'label-3', disabled: false },
 ];
 </script>
 

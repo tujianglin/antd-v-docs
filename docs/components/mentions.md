@@ -90,5 +90,5 @@ outline: deep
 | label     | 选项的标题     | React.VNode         | -      |
 | key       | 选项的 key 值  | string              | -      |
 | disabled  | 是否可选       | boolean             | -      |
-| className | css 类名       | string              | -      |
+| class | css 类名       | string              | -      |
 | style     | 选项样式       | React.CSSProperties | -      |

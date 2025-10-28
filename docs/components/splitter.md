@@ -52,7 +52,7 @@ outline: deep
 
 | 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |
-| classNames | 语义化结构 className | [Record<SemanticDOM, string>](#semantic-dom) | - | 6.0.0 |
+| classNames | 语义化结构 class | [Record<SemanticDOM, string>](#semantic-dom) | - | 6.0.0 |
 | collapsibleIcon | 折叠图标 | `{start?: VNode; end?: VNode}` | - | 6.0.0 |
 | draggerIcon | 拖拽图标 | `VNode` | - | 6.0.0 |
 | lazy | 延迟渲染模式 | `boolean` | `false` | 5.23.0 |
