@@ -67,6 +67,7 @@ export default defineConfig({
           { text: 'TimePicker 时间选择器', link: 'components/time-picker' },
           { text: 'Transfer 穿梭框', link: 'components/transfer' },
           { text: 'TreeSelect 树选择', link: 'components/tree-select' },
+          { text: 'Upload 上传', link: 'components/upload' },
         ],
       },
       {
