@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { DatePicker, Radio, Space } from 'antd-v';
 import type { SizeType } from 'node_modules/antd-v/dist/components/config-provider/SizeContext';
 import { ref } from 'vue';
