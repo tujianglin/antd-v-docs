@@ -5,7 +5,7 @@ next:
   text: Button 按钮
 ---
 
-# 最新 Vue3 + TS 高仿 ElementPlus 打造自己的组件库
+# 最新 Vue3 + TS 高仿 Antd 打造自己的组件库
 
 - 主题之类的和官网一致
 
