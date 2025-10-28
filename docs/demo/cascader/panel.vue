@@ -56,7 +56,7 @@ const disabled = ref(false);
 
 <template>
   <Flex vertical gap="small" align="flex-start">
-    <Switch v-model:checked="disabled" checked-children="Enabled" un-checked-children="Disabled" aria-label="disabled switch" />
+    <Switch v-model:value="disabled" checked-children="Enabled" un-checked-children="Disabled" aria-label="disabled switch" />
     <Cascader.Panel :options="options" @change="onChange" :disabled="disabled" />
     <Cascader.Panel multiple :options="options" @change="onMultipleChange" :disabled="disabled" />
     <Cascader.Panel />

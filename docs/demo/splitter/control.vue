@@ -29,7 +29,7 @@ const setSizes = (newSizes: (number | string)[]) => {
       </Splitter.Panel>
     </Splitter>
     <Flex gap="middle" justify="space-between">
-      <Switch v-model:checked="enabled" checked-children="Enabled" un-checked-children="Disabled" />
+      <Switch v-model:value="enabled" checked-children="Enabled" un-checked-children="Disabled" />
       <Button @click="setSizes(['50%', '50%'])">Reset</Button>
     </Flex>
   </Flex>

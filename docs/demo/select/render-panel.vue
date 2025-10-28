@@ -9,7 +9,7 @@ const open = ref(true);
 
 <template>
   <Flex vertical gap="small" align="start">
-    <Switch v-model:checked="open" />
+    <Switch v-model:value="open" />
     <InternalSelect
       value="lucy"
       style="width: 120px"

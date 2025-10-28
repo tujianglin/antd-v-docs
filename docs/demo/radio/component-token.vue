@@ -26,8 +26,8 @@ const RadioButton = Radio.Button;
     }"
   >
     <Space vertical>
-      <Radio :checked="true">Test</Radio>
-      <Radio :checked="true" disabled> Disabled </Radio>
+      <Radio :value="true">Test</Radio>
+      <Radio :value="true" disabled> Disabled </Radio>
       <RadioGroup value="a">
         <RadioButton value="a">Hangzhou</RadioButton>
         <RadioButton value="b">Shanghai</RadioButton>

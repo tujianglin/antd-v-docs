@@ -9,6 +9,6 @@ const reverse = ref(true);
   <div>
     <Slider :value="30" :reverse="reverse" />
     <Slider range :value="[20, 50]" :reverse="reverse" />
-    Reversed: <Switch size="small" v-model:checked="reverse" />
+    Reversed: <Switch size="small" v-model:value="reverse" />
   </div>
 </template>

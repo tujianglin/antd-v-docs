@@ -36,7 +36,7 @@ const focusPreventScroll = () => {
       <Button @click="focusEnd">Focus at last</Button>
       <Button @click="focusAll">Focus to select all</Button>
       <Button @click="focusPreventScroll">Focus prevent scroll</Button>
-      <Switch :checked="input" checked-children="Input" un-checked-children="TextArea" @change="() => setInput(!input)" />
+      <Switch :value="input" checked-children="Input" un-checked-children="TextArea" @change="() => setInput(!input)" />
     </Space>
     <br />
     <Input v-if="input" v-model:value="value" ref="inputRef" :style="{ width: '100%' }" />

@@ -57,6 +57,7 @@ export default defineConfig({
           { text: 'Rate 评分', link: 'components/rate' },
           { text: 'Select 选择器', link: 'components/select' },
           { text: 'Slider 滑动输入条', link: 'components/slider' },
+          { text: 'Switch 开关', link: 'components/switch' },
         ],
       },
       {

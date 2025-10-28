@@ -1,11 +1,18 @@
 <script setup lang="tsx">
 import { Checkbox, Col, Row } from 'antd-v';
+import { effect, ref } from 'vue';
 
 const CheckboxGroup = Checkbox.Group;
+
+const value = ref(['A']);
+
+effect(() => {
+  console.log(value.value);
+});
 </script>
 
 <template>
-  <CheckboxGroup style="width: 100%">
+  <CheckboxGroup v-model:value="value" style="width: 100%">
     <Row>
       <Col :span="8">
         <Checkbox value="A">A</Checkbox>
