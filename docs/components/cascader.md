@@ -1,12 +1,8 @@
 ---
-category: Components
-group: 数据录入
-title: Cascader
-subtitle: 级联选择
-description: 级联选择框。
-demo:
-  cols: 2
+outline: deep
 ---
+
+# 级联选择器
 
 ## 何时使用
 

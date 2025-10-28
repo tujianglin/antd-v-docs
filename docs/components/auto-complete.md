@@ -55,12 +55,10 @@ outline: deep
 | 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |
 | allowClear | 支持清除 | boolean \| `{ clearIcon?: VNode }` | false | 5.8.0: 支持对象形式 |
-| autoFocus | 自动获取焦点 | boolean | false |  |
+| autofocus | 自动获取焦点 | boolean | false |  |
 | backfill | 使用键盘选择选项的时候把选中项回填到输入框中 | boolean | false |  |
 | classNames | 语义化结构 class | [Record<SemanticDOM, string>](#semantic-dom) | - | 5.25.0 |
 | defaultActiveFirstOption | 是否默认高亮第一个选项 | boolean | true |  |
-| defaultOpen | 是否默认展开下拉菜单 | boolean | - |  |
-| defaultValue | 指定默认选中的条目 | string | - |  |
 | disabled | 是否禁用 | boolean | false |  |
 | popupRender | 自定义下拉框内容 | (originNode: VNode) => VNode | - |  |
 | popupMatchSelectWidth | 下拉菜单和选择器同宽。默认将设置 `min-width`，当值小于选择框宽度时会被忽略。false 时会关闭虚拟滚动 | boolean \| number | true |  |
@@ -73,7 +71,7 @@ outline: deep
 | status | 设置校验状态 | 'error' \| 'warning' | - | 4.19.0 |
 | size | 控件大小 | `large` \| `middle` \| `small` | - |  |
 | styles | 语义化结构 style | [Record<SemanticDOM, CSSProperties>](#semantic-dom) | - | 5.25.0 |
-| value | 指定当前选中的条目 | string | - |  |
+| value(v-model) | 指定当前选中的条目 | string | - |  |
 | variant | 形态变体 | `outlined` \| `borderless` \| `filled` | `outlined` | 5.13.0 |
 | virtual | 设置 false 时关闭虚拟滚动 | boolean | true | 4.1.0 |
 | onBlur | 失去焦点时的回调 | function() | - |  |

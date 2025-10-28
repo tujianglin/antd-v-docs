@@ -48,6 +48,7 @@ export default defineConfig({
         items: [
           { text: 'AutoComplate 自动输入', link: 'components/auto-complete' },
           { text: 'Cascader 级联选择器', link: 'components/cascader' },
+          { text: 'Checkbox 复选框', link: 'components/checkbox' },
           // { text: 'Checkbox 复选框', link: 'components/checkbox' },
         ],
       },
