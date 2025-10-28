@@ -23,7 +23,7 @@
     "@vitepress-demo-preview/plugin": "^1.4.1",
     "@vueuse/components": "^13.5.0",
     "@vueuse/core": "^13.5.0",
-    "antd-v": "0.0.6",
+    "antd-v": "0.0.7",
     "axios": "^1.10.0",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.18",

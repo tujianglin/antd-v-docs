@@ -7,6 +7,10 @@ export default defineConfig({
   vite: {
     // @ts-ignore 111
     plugins: [vueJsx(), tailwindcss()],
+    server: {
+      port: 1122,
+      host: true,
+    },
   },
   title: 'Antd-v',
   description: '基于 Vue3 高仿 React Antd 组件库',
@@ -41,7 +45,11 @@ export default defineConfig({
       {
         text: '数据录入',
         collapsed: false,
-        items: [],
+        items: [
+          { text: 'AutoComplate 自动输入', link: 'components/auto-complete' },
+          { text: 'Cascader 级联选择器', link: 'components/cascader' },
+          // { text: 'Checkbox 复选框', link: 'components/checkbox' },
+        ],
       },
       {
         text: '反馈组件',

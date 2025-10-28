@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { CodeSandboxOutlined, CopyOutlined } from '@ant-design/icons-vue';
 import { message } from 'antd-v';
 import { createHighlighter, type Highlighter } from 'shiki';
