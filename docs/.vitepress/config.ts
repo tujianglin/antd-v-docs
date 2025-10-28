@@ -65,6 +65,7 @@ export default defineConfig({
           { text: 'Slider 滑动输入条', link: 'components/slider' },
           { text: 'Switch 开关', link: 'components/switch' },
           { text: 'TimePicker 时间选择器', link: 'components/time-picker' },
+          { text: 'Transfer 穿梭框', link: 'components/transfer' },
         ],
       },
       {
