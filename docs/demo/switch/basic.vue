@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { Switch } from 'antd-v';
 import { ref } from 'vue';
 

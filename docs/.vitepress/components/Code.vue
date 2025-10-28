@@ -22,8 +22,8 @@ const componentId = ref(`demo-${Date.now()}-${Math.random().toString(36).substr(
 let highlighter: Highlighter | null = null;
 
 // ✅ 关键修复：预加载所有 demo 文件和源码（构建时会被打包）
-const demoModules = import.meta.glob('../../demo/**/*.vue', { eager: true });
-const rawModules = import.meta.glob('../../demo/**/*.vue', { as: 'raw', eager: true });
+const demoModules = (import.meta as any).glob('../../demo/**/*.vue', { eager: true });
+const rawModules = (import.meta as any).glob('../../demo/**/*.vue', { as: 'raw', eager: true });
 
 // 主题切换
 const isDark = computed(() => {
@@ -128,15 +128,37 @@ onMounted(async () => {
   border: 1px solid rgba(5, 5, 5, 0.06);
   border-radius: 8px;
   overflow: hidden;
-  background: #fff;
+  background: #ffffff;
   box-shadow:
     0 1px 2px 0 rgba(0, 0, 0, 0.03),
     0 1px 6px -1px rgba(0, 0, 0, 0.02),
     0 2px 4px 0 rgba(0, 0, 0, 0.02);
 }
 
+.code-demo-title {
+  padding: 16px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+}
+
+.code-demo-title :deep(h1),
+.code-demo-title :deep(h2),
+.code-demo-title :deep(h3),
+.code-demo-title :deep(h4),
+.code-demo-title :deep(h5),
+.code-demo-title :deep(h6) {
+  margin: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.code-demo-title :deep(h3) {
+  font-size: 16px;
+}
+
 .code-demo-preview {
   padding: 24px;
+  background: #ffffff;
 }
 
 .code-demo-toolbar {
@@ -149,43 +171,55 @@ onMounted(async () => {
   border-bottom: 1px solid rgba(5, 5, 5, 0.06);
 }
 
-.toolbar-title {
+.code-demo-toolbar .toolbar-title {
   font-size: 14px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.88);
+  line-height: 22px;
 }
 
-.toolbar-actions {
+.code-demo-toolbar .toolbar-actions {
   display: flex;
   gap: 8px;
 }
 
-.toolbar-btn {
-  display: flex;
+.code-demo-toolbar .toolbar-btn {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 32px;
   height: 32px;
-  background: transparent;
+  padding: 0;
   border: none;
-  color: rgba(0, 0, 0, 0.45);
+  background: transparent;
   border-radius: 6px;
   cursor: pointer;
-  transition: all 0.2s;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 16px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.toolbar-btn:hover:not(:disabled) {
+.code-demo-toolbar .toolbar-btn > * {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-demo-toolbar .toolbar-btn:hover:not(:disabled) {
   background: rgba(0, 0, 0, 0.04);
   color: rgba(0, 0, 0, 0.88);
 }
 
-.toolbar-btn.active {
+.code-demo-toolbar .toolbar-btn.active {
   color: #1677ff;
+}
+
+.code-demo-toolbar .toolbar-btn.active:hover {
   background: rgba(22, 119, 255, 0.06);
 }
 
-.toolbar-btn:disabled {
-  opacity: 0.4;
+.code-demo-toolbar .toolbar-btn:disabled {
+  opacity: 0.38;
   cursor: not-allowed;
 }
 
@@ -196,19 +230,70 @@ onMounted(async () => {
   overflow: auto;
 }
 
+.code-demo-code pre {
+  margin: 0;
+  background: #f6f8fa;
+}
+
+.code-demo-code code {
+  font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', monospace;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+}
+
+.highlight-wrapper {
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  overflow-x: auto;
+}
+
 .highlight-wrapper pre {
   margin: 0;
   padding: 16px;
   background: #f6f8fa;
 }
 
-/* 动画 */
+/* 过渡动画 */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s ease;
 }
+
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+</style>
+
+<style>
+/* Shiki 代码高亮样式 */
+.highlight-wrapper {
+  margin: 0;
+}
+
+.highlight-wrapper pre {
+  margin: 0;
+  padding: 16px;
+  overflow-x: auto;
+  font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', monospace;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  background: #f6f8fa;
+}
+
+.highlight-wrapper code {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* 确保代码高亮在暗色和亮色主题下都正常显示 */
+.vp-doc [data-theme='dark'] .highlight-wrapper,
+[data-theme='dark'] .highlight-wrapper {
+  color-scheme: dark;
+}
+
+.vp-doc [data-theme='light'] .highlight-wrapper,
+[data-theme='light'] .highlight-wrapper {
+  color-scheme: light;
 }
 </style>

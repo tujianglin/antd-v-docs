@@ -63,7 +63,7 @@ outline: deep
 | 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |
 | autofocus | 自动获取焦点 | boolean | false |  |
-| classNames | 语义化结构 className | [Record<SemanticDOM, string>](#semantic-dom) | - | 5.10.0 |
+| classNames | 语义化结构 class | [Record<SemanticDOM, string>](#semantic-dom) | - | 5.10.0 |
 | disabled | 值为 true 时，滑块为禁用状态 | boolean | false |  |
 | keyboard | 支持使用键盘操作 handler | boolean | true | 5.2.0+ |
 | dots | 是否只能拖拽到刻度上 | boolean | false |  |

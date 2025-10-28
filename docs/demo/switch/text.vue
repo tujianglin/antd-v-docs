@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { CheckOutlined, CloseOutlined } from '@ant-design/icons-vue';
 import { Space, Switch } from 'antd-v';
 import { h } from 'vue';

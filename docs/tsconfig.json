@@ -1,15 +1,11 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "extends": "../tsconfig.json",
   "compilerOptions": {
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "erasableSyntaxOnly": false,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
-    "noImplicitAny": false,
-    "strictNullChecks": false,
-    "types": ["vite/client"]
-  }
+    "esModuleInterop": true,
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "jsx": "preserve",
+  },
+  "include": ["../src/**/*.ts", "../src/**/*.tsx", "../src/**/*.vue", ".vitepress/**/*", "**/*.ts", "**/*.vue"],
+  "exclude": ["node_modules", "dist"]
 }

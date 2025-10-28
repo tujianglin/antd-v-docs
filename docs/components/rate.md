@@ -47,7 +47,7 @@ outline: deep
 | allowHalf | 是否允许半选 | boolean | false |  |
 | autofocus | 自动获取焦点 | boolean | false |  |
 | character | 自定义字符 | VNode \| (RateProps) => VNode | &lt;StarFilled /> | function(): 4.4.0 |
-| className | 自定义样式类名 | string | - |  |
+| class | 自定义样式类名 | string | - |  |
 | count | star 总数 | number | 5 |  |
 | disabled | 只读，无法进行交互 | boolean | false |  |
 | keyboard | 支持使用键盘操作 | boolean | true | 5.18.0 |

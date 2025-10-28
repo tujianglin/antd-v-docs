@@ -167,7 +167,7 @@ outline: deep
 
 | 参数      | 说明                     | 类型             | 默认值 | 版本 |
 | --------- | ------------------------ | ---------------- | ------ | ---- |
-| className | Option 器类名            | string           | -      |      |
+| class | Option 器类名            | string           | -      |      |
 | disabled  | 是否禁用                 | boolean          | false  |      |
 | title     | 选项上的原生 title 提示  | string           | -      |      |
 | value     | 默认根据此属性值进行筛选 | string \| number | -      |      |
@@ -178,5 +178,5 @@ outline: deep
 | --------- | ----------------------- | --------------- | ------ | ---- |
 | key       | Key                     | string          | -      |      |
 | label     | 组名                    | VNode | -      |      |
-| className | Option 器类名           | string          | -      |      |
+| class | Option 器类名           | string          | -      |      |
 | title     | 选项上的原生 title 提示 | string          | -      |      |

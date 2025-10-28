@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { ConfigProvider, Space, Switch } from 'antd-v';
 </script>
 
