@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { Checkbox, Popover } from 'antd-v';
 </script>
 

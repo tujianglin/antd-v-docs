@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { Checkbox, Col, Row } from 'antd-v';
 
 const CheckboxGroup = Checkbox.Group;

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { Checkbox, ConfigProvider, Radio, Space } from 'antd-v';
 
 const sharedStyle = {

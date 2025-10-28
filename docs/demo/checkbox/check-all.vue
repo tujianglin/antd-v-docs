@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { Checkbox, Divider } from 'antd-v';
 import { computed, ref } from 'vue';
 

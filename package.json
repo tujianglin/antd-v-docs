@@ -16,14 +16,12 @@
     "#/*": "./src/*"
   },
   "dependencies": {
+    "@ant-design/colors": "^7.2.1",
     "@ant-design/icons-vue": "^7.0.1",
     "@theojs/lumen": "^6.4.4",
-    "@vitepress-demo-preview/component": "^2.6.1",
-    "@vitepress-demo-preview/core": "^0.3.0",
-    "@vitepress-demo-preview/plugin": "^1.4.1",
     "@vueuse/components": "^13.5.0",
     "@vueuse/core": "^13.5.0",
-    "antd-v": "0.0.7",
+    "antd-v": "link:../antd-vue",
     "axios": "^1.10.0",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.18",

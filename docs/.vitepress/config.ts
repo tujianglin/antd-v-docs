@@ -1,6 +1,5 @@
 import tailwindcss from '@tailwindcss/vite';
 import vueJsx from '@vitejs/plugin-vue-jsx';
-import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin';
 import { defineConfig, type DefaultTheme } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -49,6 +48,7 @@ export default defineConfig({
           { text: 'AutoComplate 自动输入', link: 'components/auto-complete' },
           { text: 'Cascader 级联选择器', link: 'components/cascader' },
           { text: 'Checkbox 复选框', link: 'components/checkbox' },
+          { text: 'ColorPicker 颜色选择器', link: 'components/color-picker' },
           // { text: 'Checkbox 复选框', link: 'components/checkbox' },
         ],
       },
@@ -101,10 +101,6 @@ export default defineConfig({
     skipToContentLabel: '跳转到内容',
   },
   markdown: {
-    config(md) {
-      md.use(containerPreview);
-      md.use(componentPreview);
-    },
     // 启用 Vue 组件在 markdown 中使用
     lineNumbers: false,
   },
