@@ -54,7 +54,7 @@ export default defineConfig({
           { text: 'InputNumber 数字输入框', link: 'components/input-number' },
           { text: 'Mentions 提及', link: 'components/mentions' },
           { text: 'Radio 单选', link: 'components/radio' },
-          // { text: 'Checkbox 复选框', link: 'components/checkbox' },
+          { text: 'Rate 评分', link: 'components/rate' },
         ],
       },
       {
