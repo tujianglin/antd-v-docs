@@ -1,12 +1,8 @@
 ---
-category: Components
-group: 数据录入
-title: Transfer
-subtitle: 穿梭框
-description: 双栏穿梭选择框。
-cover: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*fkfzT5BbwNIAAAAAAAAAAAAADrJ8AQ/original
-coverDark: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*g9vUQq2nkpEAAAAAAAAAAAAADrJ8AQ/original
+outline: deep
 ---
+
+# Transfer
 
 ## 何时使用
 

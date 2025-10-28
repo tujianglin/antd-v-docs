@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { Transfer } from 'antd-v';
 import { onMounted, ref } from 'vue';
 
