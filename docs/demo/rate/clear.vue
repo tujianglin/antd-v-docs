@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { Flex, Rate } from 'antd-v';
 </script>
 

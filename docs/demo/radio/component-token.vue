@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { ConfigProvider, Radio, Space } from 'antd-v';
 
 const RadioGroup = Radio.Group;

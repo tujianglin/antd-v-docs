@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { HeartOutlined } from '@ant-design/icons-vue';
 import { Flex, Rate } from 'antd-v';
 import { h } from 'vue';

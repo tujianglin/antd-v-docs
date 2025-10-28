@@ -55,6 +55,7 @@ export default defineConfig({
           { text: 'Mentions 提及', link: 'components/mentions' },
           { text: 'Radio 单选', link: 'components/radio' },
           { text: 'Rate 评分', link: 'components/rate' },
+          { text: 'Select 选择器', link: 'components/select' },
         ],
       },
       {
