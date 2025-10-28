@@ -32,6 +32,9 @@ jobs:
           node-version: 20
           cache: pnpm # 启用 pnpm 缓存
 
+      - name: Cache pnpm
+        run: npm install -g pnpm
+
       # 3️⃣ 启用 Corepack 并激活 pnpm
       - name: Enable pnpm via Corepack
         run: corepack enable && corepack prepare pnpm@latest --activate
