@@ -49,6 +49,7 @@ export default defineConfig({
           { text: 'Cascader 级联选择器', link: 'components/cascader' },
           { text: 'Checkbox 复选框', link: 'components/checkbox' },
           { text: 'ColorPicker 颜色选择器', link: 'components/color-picker' },
+          { text: 'DatePicker 日期选择器', link: 'components/date-picker' },
           // { text: 'Checkbox 复选框', link: 'components/checkbox' },
         ],
       },
