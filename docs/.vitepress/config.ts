@@ -56,6 +56,7 @@ export default defineConfig({
           { text: 'Radio 单选', link: 'components/radio' },
           { text: 'Rate 评分', link: 'components/rate' },
           { text: 'Select 选择器', link: 'components/select' },
+          { text: 'Slider 滑动输入条', link: 'components/slider' },
         ],
       },
       {

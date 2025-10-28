@@ -1,12 +1,8 @@
 ---
-category: Components
-group: 数据录入
-title: Select
-subtitle: 选择器
-description: 下拉选择器。
-demo:
-  cols: 2
+outline: deep
 ---
+
+# Select
 
 ## 何时使用
 
