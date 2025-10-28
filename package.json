@@ -10,8 +10,7 @@
     "preinstall": "npx only-allow pnpm",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "deploy": "gh-pages -d docs/.vitepress/dist"
+    "docs:preview": "vitepress preview docs"
   },
   "imports": {
     "#/*": "./src/*"
@@ -26,7 +25,6 @@
     "axios": "^1.10.0",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.18",
-    "gh-pages": "^6.3.0",
     "lodash-es": "^4.17.21",
     "qs": "^6.14.0",
     "runes2": "^1.1.4",
