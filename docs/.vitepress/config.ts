@@ -18,6 +18,7 @@ export default defineConfig({
   },
   title: 'Antd-v',
   description: '基于 Vue3 高仿 React Antd 组件库',
+  base: '/ui-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
