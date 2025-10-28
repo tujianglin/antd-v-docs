@@ -110,7 +110,7 @@ type ColorType =
 type PresetColorType = {
   label: VNode;
   defaultOpen?: boolean;
-  key?: React.Key;
+  key?: string | number;
   colors: ColorType[];
 };
 ```

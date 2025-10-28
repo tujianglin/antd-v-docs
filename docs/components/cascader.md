@@ -127,7 +127,7 @@ outline: deep
 | ~searchValue~ | 设置搜索的值，需要与 `showSearch` 配合使用 | string | - | 4.17.0 |
 | ~onSearch~ | 监听搜索，返回输入的值 | (search: string) => void | - | 4.17.0 |
 | popupMenuColumnStyle | 下拉菜单列的样式 | CSSProperties | - |  |
-| optionRender | 自定义渲染下拉选项 | (option: Option) => React.VNode | - | 5.16.0 |
+| optionRender | 自定义渲染下拉选项 | (option: Option) => VNode | - | 5.16.0 |
 
 ### showSearch
 
@@ -149,7 +149,7 @@ outline: deep
 ```typescript
 interface Option {
   value: string | number;
-  label?: React.VNode;
+  label?: VNode;
   disabled?: boolean;
   children?: Option[];
   // 标记是否为叶子节点，设置了 `loadData` 时有效

@@ -51,6 +51,7 @@ export default defineConfig({
           { text: 'ColorPicker 颜色选择器', link: 'components/color-picker' },
           { text: 'DatePicker 日期选择器', link: 'components/date-picker' },
           { text: 'Input 输入框', link: 'components/input' },
+          { text: 'InputNumber 数字输入框', link: 'components/input-number' },
           // { text: 'Checkbox 复选框', link: 'components/checkbox' },
         ],
       },

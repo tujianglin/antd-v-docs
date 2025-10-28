@@ -89,28 +89,28 @@ outline: deep
 
 ### Input
 
-<!-- | 参数 | 说明 | 类型 | 默认值 | 版本 |
+| 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |
-| addonAfter | 带标签的 input，设置后置标签 | ReactNode | - |  |
-| addonBefore | 带标签的 input，设置前置标签 | ReactNode | - |  |
-| allowClear | 可以点击清除图标删除内容 | boolean \| { clearIcon: ReactNode } | - |  |
+| addonAfter | 带标签的 input，设置后置标签 | VNode | - |  |
+| addonBefore | 带标签的 input，设置前置标签 | VNode | - |  |
+| allowClear | 可以点击清除图标删除内容 | boolean \| { clearIcon: VNode } | - |  |
 | classNames | 用于自定义组件内部各语义化结构的 class，支持对象或函数 | Record<[SemanticDOM](#semantic-input), string> \| (info: { props })=> Record<[SemanticDOM](#semantic-input), string> | - | 5.4.0 |
 | count | 字符计数配置 | [CountConfig](#countconfig) | - | 5.10.0 |
 | disabled | 是否禁用状态，默认为 false | boolean | false |  |
 | id | 输入框的 id | string | - |  |
 | maxlength | 最大长度 | number | - |  |
-| prefix | 带有前缀图标的 input | ReactNode | - |  |
-| showCount | 是否展示字数 | boolean \| { formatter: (info: { value: string, count: number, maxLength?: number }) => ReactNode } | false | 4.18.0 info.value: 4.23.0 |
+| prefix | 带有前缀图标的 input | VNode | - |  |
+| showCount | 是否展示字数 | boolean \| `{ formatter: (info: { value: string, count: number, maxLength?: number }) => VNode }` | false | 4.18.0 info.value: 4.23.0 |
 | status | 设置校验状态 | 'error' \| 'warning' | - | 4.19.0 |
 | styles | 用于自定义组件内部各语义化结构的行内 style，支持对象或函数 | Record<[SemanticDOM](#semantic-input), CSSProperties> \| (info: { props })=> Record<[SemanticDOM](#semantic-input), CSSProperties> | - | 5.4.0 |
 | size | 控件大小。注：标准表单内的输入框大小限制为 `middle` | `large` \| `middle` \| `small` | - |  |
-| suffix | 带有后缀图标的 input | ReactNode | - |  |
+| suffix | 带有后缀图标的 input | VNode | - |  |
 | type | 声明 input 类型，同原生 input 标签的 type 属性，见：[MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input#属性)(请直接使用 `Input.TextArea` 代替 `type="textarea"`) | string | `text` |  |
 | value(v-model) | 输入框内容 | string | - |  |
 | variant | 形态变体 | `outlined` \| `borderless` \| `filled` \| `underlined` | `outlined` | 5.13.0 \| `underlined`: 5.24.0 |
 | onChange | 输入框内容变化时的回调 | function(e) | - |  |
 | onPressEnter | 按下回车的回调 | function(e) | - |  |
-| onClear | 按下清除按钮的回调 | () => void | - | 5.20.0 | -->
+| onClear | 按下清除按钮的回调 | () => void | - | 5.20.0 |
 
 #### CountConfig
 
@@ -121,7 +121,7 @@ interface CountConfig {
   // 自定义字符计数，例如标准 emoji 长度大于 1，可以自定义计数策略将其改为 1
   strategy?: (value: string) => number;
   // 同 `showCount`
-  show?: boolean | ((args: { value: string; count: number; maxLength?: number }) => ReactNode);
+  show?: boolean | ((args: { value: string; count: number; maxLength?: number }) => VNode);
   // 当字符数超出 `count.max` 时的自定义裁剪逻辑，不配置时不进行裁剪
   exceedFormatter?: (value: string, config: { max: number }) => string;
 }
@@ -130,7 +130,8 @@ interface CountConfig {
 ### Input.TextArea
 
 同 Input 属性，外加：
-<!-- 
+
+<!--
 | 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |
 | autoSize | 自适应内容高度，可设置为 true \| false 或对象：{ minRows: 2, maxRows: 6 } | boolean \| object | false |  |
@@ -144,7 +145,7 @@ interface CountConfig {
 <!-- | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- | --- |
 | classNames | 语义化结构 class | Record<[SemanticDOM](#semantic-search), string> | - |  |
-| enterButton | 是否有确认按钮，可设为按钮文字。该属性会与 `addonAfter` 冲突。 | ReactNode | false |
+| enterButton | 是否有确认按钮，可设为按钮文字。该属性会与 `addonAfter` 冲突。 | VNode | false |
 | loading | 搜索 loading | boolean | false |
 | onSearch | 点击搜索图标、清除图标，或按下回车键时的回调 | function(value, event, { source: "input" \| "clear" }) | - |
 | styles | 语义化结构 style | Record<[SemanticDOM](#semantic-search), CSSProperties> | - |  | -->
@@ -156,7 +157,7 @@ interface CountConfig {
 <!-- | 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |
 | classNames | 语义化结构 class | Record<[SemanticDOM](#semantic-password), string> | - |  |
-| iconRender | 自定义切换按钮 | (visible) => ReactNode | (visible) => (visible ? &lt;EyeOutlined /> : &lt;EyeInvisibleOutlined />) | 4.3.0 |
+| iconRender | 自定义切换按钮 | (visible) => VNode | (visible) => (visible ? &lt;EyeOutlined /> : &lt;EyeInvisibleOutlined />) | 4.3.0 |
 | styles | 语义化结构 style | Record<[SemanticDOM](#semantic-password), CSSProperties> | - |  |
 | visibilityToggle | 是否显示切换按钮或者控制密码显隐 | boolean \| [VisibilityToggle](#visibilitytoggle) | true |  | -->
 
@@ -173,7 +174,7 @@ interface CountConfig {
 | classNames | 语义化结构 class | Record<[SemanticDOM](#semantic-otp), string> | - |  |
 | disabled | 是否禁用 | boolean | false |  |
 | formatter | 格式化展示，留空字段会被 ` ` 填充 | (value: string) => string | - |  |
-| separator | 分隔符，在指定索引的输入框后渲染分隔符 | ReactNode \|((i: number) => ReactNode) | - | 5.24.0 |
+| separator | 分隔符，在指定索引的输入框后渲染分隔符 | VNode \|((i: number) => VNode) | - | 5.24.0 |
 | mask | 自定义展示，和 `formatter` 的区别是不会修改原始值 | boolean \| string | `false` | `5.17.0` |
 | length | 输入元素数量 | number | 6 |  |
 | status | 设置校验状态 | 'error' \| 'warning' | - |  |
