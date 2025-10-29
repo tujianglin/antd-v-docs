@@ -15,7 +15,7 @@ const selectedKeys = ref<string[]>(['4']);
 </script>
 <template>
   <Layout has-sider class="h-[400px]">
-    <Layout.Sider :style="{ overflow: 'auto', height: '100vh', position: 'fixed', left: 0, top: 0, bottom: 0 }">
+    <Layout.Sider :style="{ overflow: 'auto', height: '100vh', left: 0, top: 0, bottom: 0 }">
       <div class="logo"></div>
       <Menu v-model:selected-keys="selectedKeys" theme="dark" mode="inline">
         <Menu.Item key="1">

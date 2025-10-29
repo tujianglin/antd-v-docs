@@ -5,7 +5,7 @@ const selectedKeys = ref<string[]>(['2']);
 </script>
 <template>
   <Layout>
-    <Layout.Header :style="{ position: 'fixed', zIndex: 1, width: '100%' }">
+    <Layout.Header :style="{ zIndex: 1, width: '100%' }">
       <div class="logo"></div>
       <Menu v-model:selected-keys="selectedKeys" theme="dark" mode="horizontal" :style="{ lineHeight: '64px' }">
         <Menu.Item key="1">nav 1</Menu.Item>
