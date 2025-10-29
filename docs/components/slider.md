@@ -12,51 +12,51 @@ outline: deep
 
 ### 基本
 
-<Code src="slider/basic.vue">基本</Code>
+<demo vue="slider/basic.vue"></demo>
 
 ### 带输入框的滑块
 
-<Code src="slider/input-number.vue">带输入框的滑块</Code>
+<demo vue="slider/input-number.vue"></demo>
 
 ### 带 icon 的滑块
 
-<Code src="slider/icon-slider.vue">带 icon 的滑块</Code>
+<demo vue="slider/icon-slider.vue"></demo>
 
 ### 自定义提示
 
-<Code src="slider/tip-formatter.vue">自定义提示</Code>
+<demo vue="slider/tip-formatter.vue"></demo>
 
 ### 事件
 
-<Code src="slider/event.vue">事件</Code>
+<demo vue="slider/event.vue"></demo>
 
 ### 带标签的滑块
 
-<Code src="slider/mark.vue">带标签的滑块</Code>
+<demo vue="slider/mark.vue"></demo>
 
 ### 垂直
 
-<Code src="slider/vertical.vue">垂直</Code>
+<demo vue="slider/vertical.vue"></demo>
 
 ### 控制 ToolTip 的显示
 
-<Code src="slider/show-tooltip.vue">控制 ToolTip 的显示</Code>
+<demo vue="slider/show-tooltip.vue"></demo>
 
 ### 反向
 
-<Code src="slider/reverse.vue">反向</Code>
+<demo vue="slider/reverse.vue"></demo>
 
 ### 范围可拖拽
 
-<Code src="slider/draggableTrack.vue">范围可拖拽</Code>
+<demo vue="slider/draggableTrack.vue"></demo>
 
 ### 多点组合
 
-<Code src="slider/multiple.vue">多点组合</Code>
+<demo vue="slider/multiple.vue"></demo>
 
 ### 动态增减节点
 
-<Code src="slider/editable.vue" version="5.20.0">动态增减节点</Code>
+<demo vue="slider/editable.vue" version="5.20.0"></demo>
 
 ## API
 

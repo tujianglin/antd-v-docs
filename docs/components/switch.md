@@ -13,23 +13,23 @@ outline: deep
 
 ### 基本
 
-<Code src="switch/basic.vue">基本</Code>
+<demo vue="switch/basic.vue"></demo>
 
 ### 不可用
 
-<Code src="switch/disabled.vue">不可用</Code>
+<demo vue="switch/disabled.vue"></demo>
 
 ### 文字和图标
 
-<Code src="switch/text.vue">文字和图标</Code>
+<demo vue="switch/text.vue"></demo>
 
 ### 两种大小
 
-<Code src="switch/size.vue">两种大小</Code>
+<demo vue="switch/size.vue"></demo>
 
 ### 加载中
 
-<Code src="switch/loading.vue">加载中</Code>
+<demo vue="switch/loading.vue"></demo>
 
 ## API
 

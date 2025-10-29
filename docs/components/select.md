@@ -13,80 +13,104 @@ outline: deep
 ## 代码演示
 
 ### 基本使用
-<Code src="select/basic.vue">基本使用</Code>
+
+<demo vue="select/basic.vue"></demo>
 
 ### 带搜索框
-<Code src="select/search.vue">带搜索框</Code>
+
+<demo vue="select/search.vue"></demo>
 
 ### 自定义搜索
-<Code src="select/search-filter-option.vue">自定义搜索</Code>
+
+<demo vue="select/search-filter-option.vue"></demo>
 
 ### 多选
-<Code src="select/multiple.vue">多选</Code>
+
+<demo vue="select/multiple.vue"></demo>
 
 ### 三种大小
-<Code src="select/size.vue">三种大小</Code>
+
+<demo vue="select/size.vue"></demo>
 
 ### 自定义下拉选项
-<Code src="select/option-render.vue">自定义下拉选项</Code>
+
+<demo vue="select/option-render.vue"></demo>
 
 ### 带排序的搜索
-<Code src="select/search-sort.vue">带排序的搜索</Code>
+
+<demo vue="select/search-sort.vue"></demo>
 
 ### 标签
-<Code src="select/tags.vue">标签</Code>
+
+<demo vue="select/tags.vue"></demo>
 
 ### 分组
-<Code src="select/optgroup.vue">分组</Code>
+
+<demo vue="select/optgroup.vue"></demo>
 
 ### 联动
-<Code src="select/coordinate.vue">联动</Code>
+
+<demo vue="select/coordinate.vue"></demo>
 
 ### 搜索框
-<Code src="select/search-box.vue">搜索框</Code>
+
+<demo vue="select/search-box.vue"></demo>
 
 ### 获得选项的文本
-<Code src="select/label-in-value.vue">获得选项的文本</Code>
+
+<demo vue="select/label-in-value.vue"></demo>
 
 ### 自动分词
-<Code src="select/automatic-tokenization.vue">自动分词</Code>
+
+<demo vue="select/automatic-tokenization.vue"></demo>
 
 ### 搜索用户
-<Code src="select/select-users.vue">搜索用户</Code>
+
+<demo vue="select/select-users.vue"></demo>
 
 ### 前后缀
-<Code src="select/suffix.vue" version="5.22.0">前后缀</Code>
+
+<demo vue="select/suffix.vue" version="5.22.0"></demo>
 
 ### 扩展菜单
-<Code src="select/custom-dropdown-menu.vue">扩展菜单</Code>
+
+<demo vue="select/custom-dropdown-menu.vue"></demo>
 
 ### 隐藏已选择选项
-<Code src="select/hide-selected.vue">隐藏已选择选项</Code>
+
+<demo vue="select/hide-selected.vue"></demo>
 
 ### 形态变体
-<Code src="select/variant.vue" version="5.13.0">形态变体</Code>
+
+<demo vue="select/variant.vue" version="5.13.0"></demo>
 
 ### 自定义选择标签
-<Code src="select/custom-tag-render.vue">自定义选择标签</Code>
+
+<demo vue="select/custom-tag-render.vue"></demo>
 
 ### 自定义选中 label
-<Code src="select/custom-label-render.vue">自定义选中 label</Code>
+
+<demo vue="select/custom-label-render.vue"></demo>
 
 ### 响应式 maxTagCount
-<Code src="select/responsive.vue">响应式 maxTagCount</Code>
+
+<demo vue="select/responsive.vue"></demo>
 
 ### 大数据
-<Code src="select/big-data.vue">大数据</Code>
+
+<demo vue="select/big-data.vue"></demo>
 
 ### 自定义状态
-<Code src="select/status.vue">自定义状态</Code>
+
+<demo vue="select/status.vue"></demo>
 
 ### 弹出位置
-<Code src="select/placement.vue">弹出位置</Code>
+
+<demo vue="select/placement.vue"></demo>
 
 ### 最大选中数量
-<Code src="select/maxCount.vue" version="5.13.0">最大选中数量</Code>
 
+<demo vue="select/maxCount.vue" version="5.13.0"></demo>
 
 ## API
 
@@ -165,18 +189,18 @@ outline: deep
 
 ### Option props
 
-| 参数      | 说明                     | 类型             | 默认值 | 版本 |
-| --------- | ------------------------ | ---------------- | ------ | ---- |
-| class | Option 器类名            | string           | -      |      |
-| disabled  | 是否禁用                 | boolean          | false  |      |
-| title     | 选项上的原生 title 提示  | string           | -      |      |
-| value     | 默认根据此属性值进行筛选 | string \| number | -      |      |
+| 参数     | 说明                     | 类型             | 默认值 | 版本 |
+| -------- | ------------------------ | ---------------- | ------ | ---- |
+| class    | Option 器类名            | string           | -      |      |
+| disabled | 是否禁用                 | boolean          | false  |      |
+| title    | 选项上的原生 title 提示  | string           | -      |      |
+| value    | 默认根据此属性值进行筛选 | string \| number | -      |      |
 
 ### OptGroup props
 
-| 参数      | 说明                    | 类型            | 默认值 | 版本 |
-| --------- | ----------------------- | --------------- | ------ | ---- |
-| key       | Key                     | string          | -      |      |
-| label     | 组名                    | VNode | -      |      |
-| class | Option 器类名           | string          | -      |      |
-| title     | 选项上的原生 title 提示 | string          | -      |      |
+| 参数  | 说明                    | 类型   | 默认值 | 版本 |
+| ----- | ----------------------- | ------ | ------ | ---- |
+| key   | Key                     | string | -      |      |
+| label | 组名                    | VNode  | -      |      |
+| class | Option 器类名           | string | -      |      |
+| title | 选项上的原生 title 提示 | string | -      |      |

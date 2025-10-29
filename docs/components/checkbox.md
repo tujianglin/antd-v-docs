@@ -13,27 +13,27 @@ outline: deep
 
 ### 基本用法
 
-<Code src="checkbox/basic.vue">基本用法</Code>
+<demo vue="checkbox/basic.vue"></demo>
 
 ### 不可用
 
-<Code src="checkbox/disabled.vue">不可用</Code>
+<demo vue="checkbox/disabled.vue"></demo>
 
 ### 受控的 Checkbox
 
-<Code src="checkbox/controller.vue">受控的 Checkbox</Code>
+<demo vue="checkbox/controller.vue"></demo>
 
 ### Checkbox 组
 
-<Code src="checkbox/group.vue">Checkbox 组</Code>
+<demo vue="checkbox/group.vue"></demo>
 
 ### 全选
 
-<Code src="checkbox/check-all.vue">全选</Code>
+<demo vue="checkbox/check-all.vue"></demo>
 
 ### 布局
 
-<Code src="checkbox/layout.vue">布局</Code>
+<demo vue="checkbox/layout.vue"></demo>
 
 ## API
 

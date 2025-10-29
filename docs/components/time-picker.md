@@ -12,59 +12,59 @@ outline: deep
 
 ### 基本
 
-<Code src="time-picker/basic.vue">基本</Code>
+<demo vue="time-picker/basic.vue"></demo>
 
 ### 受控组件
 
-<Code src="time-picker/value.vue">受控组件</Code>
+<demo vue="time-picker/value.vue"></demo>
 
 ### 三种大小
 
-<Code src="time-picker/size.vue">三种大小</Code>
+<demo vue="time-picker/size.vue"></demo>
 
 ### 选择确认
 
-<Code src="time-picker/need-confirm.vue" version="5.14.0">选择确认</Code>
+<demo vue="time-picker/need-confirm.vue" version="5.14.0"></demo>
 
 ### 禁用
 
-<Code src="time-picker/disabled.vue">禁用</Code>
+<demo vue="time-picker/disabled.vue"></demo>
 
 ### 选择时分
 
-<Code src="time-picker/hide-column.vue">选择时分</Code>
+<demo vue="time-picker/hide-column.vue"></demo>
 
 ### 步长选项
 
-<Code src="time-picker/interval-options.vue">步长选项</Code>
+<demo vue="time-picker/interval-options.vue"></demo>
 
 ### 附加内容
 
-<Code src="time-picker/addon.vue">附加内容</Code>
+<demo vue="time-picker/addon.vue"></demo>
 
 ### 12 小时制
 
-<Code src="time-picker/12hours.vue">12 小时制</Code>
+<demo vue="time-picker/12hours.vue">12 </demo>
 
 ### 滚动即改变
 
-<Code src="time-picker/change-on-scroll.vue" version="5.14.0">滚动即改变</Code>
+<demo vue="time-picker/change-on-scroll.vue" version="5.14.0"></demo>
 
 ### 范围选择器
 
-<Code src="time-picker/range-picker.vue">范围选择器</Code>
+<demo vue="time-picker/range-picker.vue"></demo>
 
 ### 形态变体
 
-<Code src="time-picker/variant.vue" version="5.13.0">形态变体</Code>
+<demo vue="time-picker/variant.vue" version="5.13.0"></demo>
 
 ### 自定义状态
 
-<Code src="time-picker/status.vue">自定义状态</Code>
+<demo vue="time-picker/status.vue"></demo>
 
 ### 前后缀
 
-<Code src="time-picker/suffix.vue">前后缀</Code>
+<demo vue="time-picker/suffix.vue"></demo>
 
 ## API
 

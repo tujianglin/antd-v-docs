@@ -12,73 +12,73 @@ outline: deep
 
 
 ### 基本
-<Code src="date-picker/basic.vue">基本</Code>
+<demo vue="date-picker/basic.vue"></demo>
 
 ### 范围选择器
-<Code src="date-picker/range-picker.vue">范围选择器</Code>
+<demo vue="date-picker/range-picker.vue"></demo>
 
 ### 多选
-<Code src="date-picker/multiple.vue" version="5.14.0">多选</Code>
+<demo vue="date-picker/multiple.vue" version="5.14.0"></demo>
 
 ### 选择确认
-<Code src="date-picker/needConfirm.vue" version="5.14.0">选择确认</Code>
+<demo vue="date-picker/needConfirm.vue" version="5.14.0"></demo>
 
 ### 切换不同的选择器
-<Code src="date-picker/switchable.vue">切换不同的选择器</Code>
+<demo vue="date-picker/switchable.vue"></demo>
 
 ### 日期格式
-<Code src="date-picker/format.vue">日期格式</Code>
+<demo vue="date-picker/format.vue"></demo>
 
 ### 日期时间选择
-<Code src="date-picker/time.vue">日期时间选择</Code>
+<demo vue="date-picker/time.vue"></demo>
 
 ### 格式对齐
-<Code src="date-picker/mask.vue" version="5.14.0">格式对齐</Code>
+<demo vue="date-picker/mask.vue" version="5.14.0"></demo>
 
 ### 日期限定范围
-<Code src="date-picker/date-range.vue" version="5.14.0">日期限定范围</Code>
+<demo vue="date-picker/date-range.vue" version="5.14.0"></demo>
 
 ### 禁用
-<Code src="date-picker/disabled.vue">禁用</Code>
+<demo vue="date-picker/disabled.vue"></demo>
 
 ### 不可选择日期和时间
-<Code src="date-picker/disabled-date.vue">不可选择日期和时间</Code>
+<demo vue="date-picker/disabled-date.vue"></demo>
 
 ### 允许留空
-<Code src="date-picker/allow-empty.vue">允许留空</Code>
+<demo vue="date-picker/allow-empty.vue"></demo>
 
 ### 选择不超过一定的范围
-<Code src="date-picker/select-in-range.vue">选择不超过一定的范围</Code>
+<demo vue="date-picker/select-in-range.vue"></demo>
 
 ### 预设范围
-<Code src="date-picker/preset-ranges.vue">预设范围</Code>
+<demo vue="date-picker/preset-ranges.vue"></demo>
 
 ### 额外的页脚
-<Code src="date-picker/extra-footer.vue">额外的页脚</Code>
+<demo vue="date-picker/extra-footer.vue"></demo>
 
 ### 三种大小
-<Code src="date-picker/size.vue">三种大小</Code>
+<demo vue="date-picker/size.vue"></demo>
 
 ### 定制单元格
-<Code src="date-picker/cell-render.vue">定制单元格</Code>
+<demo vue="date-picker/cell-render.vue"></demo>
 
 ### 定制面板
-<Code src="date-picker/components.vue" version="5.14.0">定制面板</Code>
+<demo vue="date-picker/components.vue" version="5.14.0"></demo>
 
 ### 外部使用面板
-<Code src="date-picker/external-panel.vue">外部使用面板</Code>
+<demo vue="date-picker/external-panel.vue"></demo>
 
 ### 自定义状态
-<Code src="date-picker/status.vue">自定义状态</Code>
+<demo vue="date-picker/status.vue"></demo>
 
 ### 形态变体
-<Code src="date-picker/variant.vue" version="5.13.0">形态变体</Code>
+<demo vue="date-picker/variant.vue" version="5.13.0"></demo>
 
 ### 弹出位置
-<Code src="date-picker/placement.vue">弹出位置</Code>
+<demo vue="date-picker/placement.vue"></demo>
 
 ### 前后缀
-<Code src="date-picker/suffix.vue">前后缀</Code>
+<demo vue="date-picker/suffix.vue"></demo>
 
 
 ## API

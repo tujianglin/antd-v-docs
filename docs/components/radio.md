@@ -13,43 +13,43 @@ outline: deep
 
 ### 基本
 
-<Code src="radio/basic.vue">基本</Code>
+<demo vue="radio/basic.vue"></demo>
 
 ### 不可用
 
-<Code src="radio/disabled.vue">不可用</Code>
+<demo vue="radio/disabled.vue"></demo>
 
 ### 单选组合
 
-<Code src="radio/radiogroup.vue">单选组合</Code>
+<demo vue="radio/radiogroup.vue"></demo>
 
 ### Radio.Group 垂直
 
-<Code src="radio/radiogroup-more.vue">Radio.Group 垂直</Code>
+<demo vue="radio/radiogroup-more.vue"></demo>
 
 ### Block 单选组合
 
-<Code src="radio/radiogroup-block.vue" version="5.21.0">Block 单选组合</Code>
+<demo vue="radio/radiogroup-block.vue" version="5.21.0"></demo>
 
 ### Radio.Group 组合 - 配置方式
 
-<Code src="radio/radiogroup-options.vue">Radio.Group 组合 - 配置方式</Code>
+<demo vue="radio/radiogroup-options.vue"></demo>
 
 ### 按钮样式
 
-<Code src="radio/radiobutton.vue">按钮样式</Code>
+<demo vue="radio/radiobutton.vue"></demo>
 
 ### 单选组合 - 配合 name 使用
 
-<Code src="radio/radiogroup-with-name.vue">单选组合 - 配合 name 使用</Code>
+<demo vue="radio/radiogroup-with-name.vue"></demo>
 
 ### 大小
 
-<Code src="radio/size.vue">大小</Code>
+<demo vue="radio/size.vue"></demo>
 
 ### 填底的按钮样式
 
-<Code src="radio/radiobutton-solid.vue">填底的按钮样式</Code>
+<demo vue="radio/radiobutton-solid.vue"></demo>
 
 ## API
 

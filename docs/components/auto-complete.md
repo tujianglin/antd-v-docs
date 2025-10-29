@@ -16,39 +16,39 @@ outline: deep
 
 ### 基本使用
 
-<Code src="auto-complete/basic.vue">基本使用</Code>
+<demo vue="auto-complete/basic.vue"></demo>
 
 ### 自定义选项
 
-<Code src="auto-complete/options.vue">自定义选项</Code>
+<demo vue="auto-complete/options.vue"></demo>
 
 ### 自定义输入组件
 
-<Code src="auto-complete/custom.vue">自定义输入组件</Code>
+<demo vue="auto-complete/custom.vue"></demo>
 
 ### 不区分大小写
 
-<Code src="auto-complete/non-case-sensitive.vue">不区分大小写</Code>
+<demo vue="auto-complete/non-case-sensitive.vue"></demo>
 
 ### 查询模式 - 确定类目
 
-<Code src="auto-complete/certain-category.vue">查询模式 - 确定类目</Code>
+<demo vue="auto-complete/certain-category.vue"></demo>
 
 ### 查询模式 - 不确定类目
 
-<Code src="auto-complete/uncertain-category.vue">查询模式 - 不确定类目</Code>
+<demo vue="auto-complete/uncertain-category.vue"></demo>
 
 ### 自定义状态
 
-<Code src="auto-complete/status.vue">自定义状态</Code>
+<demo vue="auto-complete/status.vue"></demo>
 
 ### 多种形态
 
-<Code src="auto-complete/variant.vue" version="5.13.0">多种形态</Code>
+<demo vue="auto-complete/variant.vue" version="5.13.0"></demo>
 
 ### 自定义清除按钮
 
-<Code src="auto-complete/allowClear.vue">自定义清除按钮</Code>
+<demo vue="auto-complete/allowClear.vue"></demo>
 
 ## API
 

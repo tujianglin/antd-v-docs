@@ -14,75 +14,75 @@ outline: deep
 
 ### 基本
 
-<Code src="cascader/basic.vue">基本</Code>
+<demo vue="cascader/basic.vue"></demo>
 
 ### 默认值
 
-<Code src="cascader/default-value.vue">默认值</Code>
+<demo vue="cascader/default-value.vue"></demo>
 
 ### 可以自定义显示
 
-<Code src="cascader/custom-trigger.vue">可以自定义显示</Code>
+<demo vue="cascader/custom-trigger.vue"></demo>
 
 ### 移入展开
 
-<Code src="cascader/hover.vue">移入展开</Code>
+<demo vue="cascader/hover.vue"></demo>
 
 ### 禁用选项
 
-<Code src="cascader/disabled-option.vue">禁用选项</Code>
+<demo vue="cascader/disabled-option.vue"></demo>
 
 ### 选择即改变
 
-<Code src="cascader/change-on-select.vue">选择即改变</Code>
+<demo vue="cascader/change-on-select.vue"></demo>
 
 ### 多选
 
-<Code src="cascader/multiple.vue">多选</Code>
+<demo vue="cascader/multiple.vue"></demo>
 
 ### 自定义回填方式
 
-<Code src="cascader/showCheckedStrategy.vue">自定义回填方式</Code>
+<demo vue="cascader/showCheckedStrategy.vue"></demo>
 
 ### 大小
 
-<Code src="cascader/size.vue">大小</Code>
+<demo vue="cascader/size.vue"></demo>
 
 ### 自定义已选项
 
-<Code src="cascader/custom-render.vue">自定义已选项</Code>
+<demo vue="cascader/custom-render.vue"></demo>
 
 ### 搜索
 
-<Code src="cascader/search.vue">搜索</Code>
+<demo vue="cascader/search.vue"></demo>
 
 ### 动态加载选项
 
-<Code src="cascader/lazy.vue">动态加载选项</Code>
+<demo vue="cascader/lazy.vue"></demo>
 
 ### 自定义字段名
 
-<Code src="cascader/fields-name.vue">自定义字段名</Code>
+<demo vue="cascader/fields-name.vue"></demo>
 
 ### 前后缀
 
-<Code src="cascader/suffix.vue" version="5.22.0">前后缀</Code>
+<demo vue="cascader/suffix.vue" version="5.22.0"></demo>
 
 ### 扩展菜单
 
-<Code src="cascader/custom-dropdown.vue">扩展菜单</Code>
+<demo vue="cascader/custom-dropdown.vue"></demo>
 
 ### 弹出位置
 
-<Code src="cascader/placement.vue">弹出位置</Code>
+<demo vue="cascader/placement.vue"></demo>
 
 ### 形态变体
 
-<Code src="cascader/variant.vue" version="5.13.0">形态变体</Code>
+<demo vue="cascader/variant.vue" version="5.13.0"></demo>
 
 ### 自定义状态
 
-<Code src="cascader/status.vue">自定义状态</Code>
+<demo vue="cascader/status.vue"></demo>
 
 ## API
 

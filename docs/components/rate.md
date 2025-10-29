@@ -13,31 +13,31 @@ outline: deep
 
 ### 基本
 
-<Code src="rate/basic.vue">基本</Code>
+<demo vue="rate/basic.vue"></demo>
 
 ### 半星
 
-<Code src="rate/half.vue">半星</Code>
+<demo vue="rate/half.vue"></demo>
 
 ### 文案展现
 
-<Code src="rate/text.vue">文案展现</Code>
+<demo vue="rate/text.vue"></demo>
 
 ### 只读
 
-<Code src="rate/disabled.vue">只读</Code>
+<demo vue="rate/disabled.vue"></demo>
 
 ### 清除
 
-<Code src="rate/clear.vue">清除</Code>
+<demo vue="rate/clear.vue"></demo>
 
 ### 其他字符
 
-<Code src="rate/character.vue">其他字符</Code>
+<demo vue="rate/character.vue"></demo>
 
 ### 自定义字符
 
-<Code src="rate/character-function.vue">自定义字符</Code>
+<demo vue="rate/character-function.vue"></demo>
 
 ## API
 

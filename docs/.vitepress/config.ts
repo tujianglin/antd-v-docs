@@ -1,6 +1,8 @@
 import tailwindcss from '@tailwindcss/vite';
 import vueJsx from '@vitejs/plugin-vue-jsx';
+import { resolve } from 'path';
 import { defineConfig, type DefaultTheme } from 'vitepress';
+import { vitepressDemoPlugin } from 'vitepress-demo-plugin';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   vite: {
@@ -114,6 +116,17 @@ export default defineConfig({
     skipToContentLabel: '跳转到内容',
   },
   markdown: {
+    config(md) {
+      md.use(vitepressDemoPlugin, {
+        demoDir: resolve(__dirname, '../demo'),
+        stackblitz: {
+          show: true,
+        },
+        codesandbox: {
+          show: true,
+        },
+      });
+    },
     // 启用 Vue 组件在 markdown 中使用
     lineNumbers: false,
   },

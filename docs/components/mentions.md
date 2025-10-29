@@ -12,39 +12,39 @@ outline: deep
 
 ### 基本使用
 
-<Code src="mentions/basic.vue">基本使用</Code>
+<demo vue="mentions/basic.vue"></demo>
 
 ### 形态变体
 
-<Code src="mentions/variant.vue" version="5.13.0">形态变体</Code>
+<demo vue="mentions/variant.vue" version="5.13.0"></demo>
 
 ### 异步加载
 
-<Code src="mentions/async.vue">异步加载</Code>
+<demo vue="mentions/async.vue"></demo>
 
 ### 自定义触发字符
 
-<Code src="mentions/prefix.vue">自定义触发字符</Code>
+<demo vue="mentions/prefix.vue"></demo>
 
 ### 无效或只读
 
-<Code src="mentions/readonly.vue">无效或只读</Code>
+<demo vue="mentions/readonly.vue"></demo>
 
 ### 向上展开
 
-<Code src="mentions/placement.vue">向上展开</Code>
+<demo vue="mentions/placement.vue"></demo>
 
 ### 带移除图标
 
-<Code src="mentions/allowClear.vue">带移除图标</Code>
+<demo vue="mentions/allowClear.vue"></demo>
 
 ### 自动大小
 
-<Code src="mentions/autoSize.vue">自动大小</Code>
+<demo vue="mentions/autoSize.vue"></demo>
 
 ### 自定义状态
 
-<Code src="mentions/status.vue">自定义状态</Code>
+<demo vue="mentions/status.vue"></demo>
 
 ## API
 

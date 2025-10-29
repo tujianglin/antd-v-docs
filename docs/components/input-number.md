@@ -12,55 +12,55 @@ outline: deep
 
 ### 基本
 
-<Code src="input-number/basic.vue">基本</Code>
+<demo vue="input-number/basic.vue"></demo>
 
 ### 三种大小
 
-<Code src="input-number/size.vue">三种大小</Code>
+<demo vue="input-number/size.vue"></demo>
 
 ### 前置/后置标签
 
-<Code src="input-number/addon.vue">前置/后置标签</Code>
+<demo vue="input-number/addon.vue"></demo>
 
 ### 不可用
 
-<Code src="input-number/disabled.vue">不可用</Code>
+<demo vue="input-number/disabled.vue"></demo>
 
 ### 高精度小数
 
-<Code src="input-number/digit.vue">高精度小数</Code>
+<demo vue="input-number/digit.vue"></demo>
 
 ### 格式化展示
 
-<Code src="input-number/formatter.vue">格式化展示</Code>
+<demo vue="input-number/formatter.vue"></demo>
 
 ### 键盘行为
 
-<Code src="input-number/keyboard.vue">键盘行为</Code>
+<demo vue="input-number/keyboard.vue"></demo>
 
 ### 鼠标滚轮
 
-<Code src="input-number/change-on-wheel.vue" version="5.14.0">鼠标滚轮</Code>
+<demo vue="input-number/change-on-wheel.vue" version="5.14.0"></demo>
 
 ### 形态变体
 
-<Code src="input-number/variant.vue" version="5.13.0">形态变体</Code>
+<demo vue="input-number/variant.vue" version="5.13.0"></demo>
 
 ### 超出边界
 
-<Code src="input-number/out-of-range.vue">超出边界</Code>
+<demo vue="input-number/out-of-range.vue"></demo>
 
 ### 前缀/后缀
 
-<Code src="input-number/presuffix.vue">前缀/后缀</Code>
+<demo vue="input-number/presuffix.vue"></demo>
 
 ### 自定义状态
 
-<Code src="input-number/status.vue">自定义状态</Code>
+<demo vue="input-number/status.vue"></demo>
 
 ### 聚焦
 
-<Code src="input-number/focus.vue" version="5.22.0">聚焦</Code>
+<demo vue="input-number/focus.vue" version="5.22.0"></demo>
 
 ## API
 

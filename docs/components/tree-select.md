@@ -12,43 +12,43 @@ outline: deep
 
 ### 基本
 
-<Code src="tree-select/basic.vue" ></Code>
+<demo vue="tree-select/basic.vue" ></demo>
 
 ### 多选
 
-<Code src="tree-select/multiple.vue" ></Code>
+<demo vue="tree-select/multiple.vue" ></demo>
 
 ### 可勾选
 
-<Code src="tree-select/checkable.vue" ></Code>
+<demo vue="tree-select/checkable.vue" ></demo>
 
 ### 异步加载
 
-<Code src="tree-select/async.vue" ></Code>
+<demo vue="tree-select/async.vue" ></demo>
 
 ### 线性样式
 
-<Code src="tree-select/treeLine.vue" ></Code>
+<demo vue="tree-select/treeLine.vue" ></demo>
 
 ### 弹出位置
 
-<Code src="tree-select/placement.vue" ></Code>
+<demo vue="tree-select/placement.vue" ></demo>
 
 ### 形态变体
 
-<Code src="tree-select/variant.vue" version="5.13.0" ></Code>
+<demo vue="tree-select/variant.vue" version="5.13.0" ></demo>
 
 ### 自定义状态
 
-<Code src="tree-select/status.vue" ></Code>
+<demo vue="tree-select/status.vue" ></demo>
 
 ### 最大选中数量
 
-<Code src="tree-select/maxCount.vue" version="5.23.0" ></Code>
+<demo vue="tree-select/maxCount.vue" version="5.23.0" ></demo>
 
 ### 前后缀
 
-<Code src="tree-select/suffix.vue" version="5.22.0" />
+<demo vue="tree-select/suffix.vue" version="5.22.0" />
 
 ## API
 

@@ -12,59 +12,59 @@ outline: deep
 
 ### 基本使用
 
-<Code src="color-picker/base.vue">基本使用</Code>
+<demo vue="color-picker/base.vue"></demo>
 
 ### 触发器尺寸大小
 
-<Code src="color-picker/size.vue">触发器尺寸大小</Code>
+<demo vue="color-picker/size.vue"></demo>
 
 ### 受控模式
 
-<Code src="color-picker/controlled.vue">受控模式</Code>
+<demo vue="color-picker/controlled.vue"></demo>
 
 ### 渐变色
 
-<Code src="color-picker/line-gradient.vue" version="5.20.0">渐变色</Code>
+<demo vue="color-picker/line-gradient.vue" version="5.20.0"></demo>
 
 ### 渲染触发器文本
 
-<Code src="color-picker/text-render.vue">渲染触发器文本</Code>
+<demo vue="color-picker/text-render.vue"></demo>
 
 ### 禁用
 
-<Code src="color-picker/disabled.vue">禁用</Code>
+<demo vue="color-picker/disabled.vue"></demo>
 
 ### 禁用透明度
 
-<Code src="color-picker/disabled-alpha.vue">禁用透明度</Code>
+<demo vue="color-picker/disabled-alpha.vue"></demo>
 
 ### 清除颜色
 
-<Code src="color-picker/allowClear.vue">清除颜色</Code>
+<demo vue="color-picker/allowClear.vue"></demo>
 
 ### 自定义触发器
 
-<Code src="color-picker/trigger.vue">自定义触发器</Code>
+<demo vue="color-picker/trigger.vue"></demo>
 
 ### 自定义触发事件
 
-<Code src="color-picker/trigger-event.vue">自定义触发事件</Code>
+<demo vue="color-picker/trigger-event.vue"></demo>
 
 ### 颜色编码
 
-<Code src="color-picker/format.vue">颜色编码</Code>
+<demo vue="color-picker/format.vue"></demo>
 
 ### 预设颜色
 
-<Code src="color-picker/presets.vue">预设颜色</Code>
+<demo vue="color-picker/presets.vue"></demo>
 
 ### 预设渐变色
 
-<Code src="color-picker/presets-line-gradient.vue" debug>预设渐变色</Code>
+<demo vue="color-picker/presets-line-gradient.vue" debug></demo>
 
 ### 自定义面板
 
-<Code src="color-picker/panel-render.vue">自定义面板</Code>
+<demo vue="color-picker/panel-render.vue"></demo>
 
 ## API
 

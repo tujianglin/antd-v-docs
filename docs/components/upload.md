@@ -16,39 +16,39 @@ outline: deep
 
 ### 点击上传
 
-<Code src="upload/basic.vue">点击上传</Code>
+<demo vue="upload/basic.vue"></demo>
 
 ### 用户头像
 
-<Code src="upload/avatar.vue">用户头像</Code>
+<demo vue="upload/avatar.vue"></demo>
 
 ### 已上传的文件列表
 
-<Code src="upload/defaultFileList.vue">已上传的文件列表</Code>
+<demo vue="upload/defaultFileList.vue"></demo>
 
 ### 照片墙
 
-<Code src="upload/picture-card.vue">照片墙</Code>
+<demo vue="upload/picture-card.vue"></demo>
 
 ### 拖拽上传
 
-<Code src="upload/drag.vue">拖拽上传</Code>
+<demo vue="upload/drag.vue"></demo>
 
 ### 粘贴上传
 
-<Code src="upload/paste.vue" version="5.25.0">粘贴上传</Code>
+<demo vue="upload/paste.vue" version="5.25.0"></demo>
 
 ### 文件夹上传
 
-<Code src="upload/directory.vue">文件夹上传</Code>
+<demo vue="upload/directory.vue"></demo>
 
 ### 图片列表样式
 
-<Code src="upload/picture-style.vue">图片列表样式</Code>
+<demo vue="upload/picture-style.vue"></demo>
 
 ### 自定义预览
 
-<Code src="upload/preview-file.vue">自定义预览</Code>
+<demo vue="upload/preview-file.vue"></demo>
 
 ## API
 

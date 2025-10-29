@@ -17,31 +17,31 @@ outline: deep
 
 ### 基本用法
 
-<Code src="transfer/basic.vue"></Code>
+<demo vue="transfer/basic.vue"></demo>
 
 ### 单向样式
 
-<Code src="transfer/oneWay.vue" desc="单向样式" ></Code>
+<demo vue="transfer/oneWay.vue"></demo>
 
 ### 带搜索框
 
-<Code src="transfer/search.vue" desc="带搜索框" ></Code>
+<demo vue="transfer/search.vue"></demo>
 
 ### 高级用法
 
-<Code src="transfer/advanced.vue" desc="高级用法" ></Code>
+<demo vue="transfer/advanced.vue"></demo>
 
 ### 分页
 
-<Code src="transfer/large-data.vue" desc="分页" ></Code>
+<demo vue="transfer/large-data.vue"></demo>
 
 ### 树穿梭框
 
-<Code src="transfer/tree-transfer.vue" desc="树穿梭框" ></Code>
+<demo vue="transfer/tree-transfer.vue"></demo>
 
 ### 自定义状态
 
-<Code src="transfer/status.vue" desc="自定义状态" ></Code>
+<demo vue="transfer/status.vue"></demo>
 
 ## API
 

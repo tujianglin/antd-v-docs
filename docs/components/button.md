@@ -27,51 +27,51 @@ outline: deep
 
 ### 语法糖
 
-<Code src="button/basic.vue">语法糖</Code>
+<demo vue="button/basic.vue"></demo>
 
 ### 颜色与变体
 
-<Code src="button/color-variant.vue" version="5.21.0">颜色与变体</Code>
+<demo vue="button/color-variant.vue" version="5.21.0"></demo>
 
 ### 按钮图标
 
-<Code src="button/icon.vue">按钮图标</Code>
+<demo vue="button/icon.vue"></demo>
 
 ### 按钮图标位置
 
-<Code src="button/icon-position.vue" version="5.17.0">按钮图标位置</Code>
+<demo vue="button/icon-position.vue" version="5.17.0"></demo>
 
 ### 按钮尺寸
 
-<Code src="button/size.vue">按钮尺寸</Code>
+<demo vue="button/size.vue"></demo>
 
 ### 不可用状态
 
-<Code src="button/disabled.vue">不可用状态</Code>
+<demo vue="button/disabled.vue"></demo>
 
 ### 加载中状态
 
-<Code src="button/loading.vue">加载中状态</Code>
+<demo vue="button/loading.vue"></demo>
 
 ### 多个按钮组合
 
-<Code src="button/multiple.vue">多个按钮组合</Code>
+<demo vue="button/multiple.vue"></demo>
 
 ### 幽灵按钮
 
-<Code src="button/ghost.vue">幽灵按钮</Code>
+<demo vue="button/ghost.vue"></demo>
 
 ### 危险按钮
 
-<Code src="button/danger.vue">危险按钮</Code>
+<demo vue="button/danger.vue"></demo>
 
 ### Block 按钮
 
-<Code src="button/block.vue">Block 按钮</Code>
+<demo vue="button/block.vue"></demo>
 
 ### 移除两个汉字之间的空格
 
-<Code src="button/chinese-space.vue" version="5.17.0">移除两个汉字之间的空格</Code>
+<demo vue="button/chinese-space.vue" version="5.17.0"></demo>
 
 ## API
 

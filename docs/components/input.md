@@ -13,79 +13,79 @@ outline: deep
 
 ### 基本使用
 
-<Code src="input/basic.vue">基本使用</Code>
+<demo vue="input/basic.vue"></demo>
 
 ### 三种大小
 
-<Code src="input/size.vue">三种大小</Code>
+<demo vue="input/size.vue"></demo>
 
 ### 形态变体
 
-<Code src="input/variant.vue" version="5.13.0">形态变体</Code>
+<demo vue="input/variant.vue" version="5.13.0"></demo>
 
 ### 前置/后置标签
 
-<Code src="input/addon.vue">前置/后置标签</Code>
+<demo vue="input/addon.vue"></demo>
 
 ### 紧凑模式
 
-<Code src="input/compact-style.vue">紧凑模式</Code>
+<demo vue="input/compact-style.vue"></demo>
 
 ### 搜索框
 
-<Code src="input/search-input.vue">搜索框</Code>
+<demo vue="input/search-input.vue"></demo>
 
 ### 搜索框 loading
 
-<Code src="input/search-input-loading.vue">搜索框 loading</Code>
+<demo vue="input/search-input-loading.vue"></demo>
 
 ### 文本域
 
-<Code src="input/textarea.vue">文本域</Code>
+<demo vue="input/textarea.vue"></demo>
 
 ### 适应文本高度的文本域
 
-<Code src="input/autosize-textarea.vue">适应文本高度的文本域</Code>
+<demo vue="input/autosize-textarea.vue"></demo>
 
 ### 一次性密码框
 
-<Code src="input/otp.vue" version="5.16.0">一次性密码框</Code>
+<demo vue="input/otp.vue" version="5.16.0"></demo>
 
 ### 输入时格式化展示
 
-<Code src="input/tooltip.vue">输入时格式化展示</Code>
+<demo vue="input/tooltip.vue"></demo>
 
 ### 前缀和后缀
 
-<Code src="input/presuffix.vue">前缀和后缀</Code>
+<demo vue="input/presuffix.vue"></demo>
 
 ### 密码框
 
-<Code src="input/password-input.vue">密码框</Code>
+<demo vue="input/password-input.vue"></demo>
 
 ### 带移除图标
 
-<Code src="input/allowClear.vue">带移除图标</Code>
+<demo vue="input/allowClear.vue"></demo>
 
 ### 带字数提示
 
-<Code src="input/show-count.vue">带字数提示</Code>
+<demo vue="input/show-count.vue"></demo>
 
 ### 定制计数能力
 
-<Code src="input/advance-count.vue" version=">= 5.10.0">定制计数能力</Code>
+<demo vue="input/advance-count.vue" version=">= 5.10.0"></demo>
 
 ### 自定义状态
 
-<Code src="input/status.vue">自定义状态</Code>
+<demo vue="input/status.vue"></demo>
 
 ### 聚焦
 
-<Code src="input/focus.vue">聚焦</Code>
+<demo vue="input/focus.vue"></demo>
 
 ### 自定义各种语义结构的样式和类
 
-<Code src="input/style-class.vue" version="6.0.0">自定义各种语义结构的样式和类</Code>
+<demo vue="input/style-class.vue" version="6.0.0"></demo>
 
 ## API
 

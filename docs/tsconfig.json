@@ -4,7 +4,7 @@
     "esModuleInterop": true,
     "module": "preserve",
     "moduleResolution": "bundler",
-    "jsx": "preserve",
+    "jsx": "preserve"
   },
   "include": ["../src/**/*.ts", "../src/**/*.tsx", "../src/**/*.vue", ".vitepress/**/*", "**/*.ts", "**/*.vue"],
   "exclude": ["node_modules", "dist"]

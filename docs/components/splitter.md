@@ -14,35 +14,35 @@ outline: deep
 
 ### 基本用法
 
-<Code src="splitter/size.vue">基本用法</Code>
+<demo vue="splitter/size.vue"></demo>
 
 ### 受控模式
 
-<Code src="splitter/control.vue">受控模式</Code>
+<demo vue="splitter/control.vue"></demo>
 
 ### 垂直方向
 
-<Code src="splitter/vertical.vue">垂直方向</Code>
+<demo vue="splitter/vertical.vue"></demo>
 
 ### 可折叠
 
-<Code src="splitter/collapsible.vue">可折叠</Code>
+<demo vue="splitter/collapsible.vue"></demo>
 
 ### 可折叠图标显示
 
-<Code src="splitter/collapsibleIcon.vue" version="5.27.0">可折叠图标显示</Code>
+<demo vue="splitter/collapsibleIcon.vue" version="5.27.0"></demo>
 
 ### 多面板
 
-<Code src="splitter/multiple.vue">多面板</Code>
+<demo vue="splitter/multiple.vue"></demo>
 
 ### 复杂组合
 
-<Code src="splitter/group.vue">复杂组合</Code>
+<demo vue="splitter/group.vue"></demo>
 
 ### 延迟渲染模式
 
-<Code src="splitter/lazy.vue" version="5.23.0">延迟渲染模式</Code>
+<demo vue="splitter/lazy.vue" version="5.23.0"></demo>
 
 ## API
 
