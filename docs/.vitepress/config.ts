@@ -45,7 +45,10 @@ export default defineConfig({
       {
         text: '布局',
         collapsed: false,
-        items: [{ text: 'Splitter 分割面板', link: 'components/splitter' }],
+        items: [
+          { text: 'Divider 分割线', link: 'components/divider' },
+          { text: 'Splitter 分割面板', link: 'components/splitter' },
+        ],
       },
       {
         text: '导航',
