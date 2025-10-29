@@ -178,7 +178,7 @@ interface EllipsisConfig {
 | rows | 最多显示的行数 | number | - |  |
 | suffix | 自定义省略内容后缀 | string | - |  |
 | symbol | 自定义展开描述文案 | VNode \| ((expanded: boolean) => VNode) | `展开` `收起` |  |
-| tooltip | 省略时，展示提示信息 | VNode \| [TooltipProps](/components/tooltip-cn/#api) | - | 4.11.0 |
+| tooltip | 省略时，展示提示信息 | VNode \| [TooltipProps] | - | 4.11.0 |
 | defaultExpanded | 默认展开或收起 | boolean |  | 5.16.0 |
 | expanded | 展开或收起 | boolean |  | 5.16.0 |
 | onEllipsis | 触发省略时的回调 | function(ellipsis) | - | 4.2.0 |
