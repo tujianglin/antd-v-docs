@@ -1,2 +1,45 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
+
+.ant-col {
+  min-height: 30px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 0px;
+}
+
+.ant-row {
+  div:not(.gutter-row) {
+    padding: 16px 0px;
+    background: rgb(22, 119, 255);
+    &:nth-child(2n + 1) {
+      background: rgba(22, 119, 255, 0.75);
+    }
+  }
+}
+
+#grid-demo-playground {
+  [class~='ant-col'] {
+    padding: 0;
+    background: transparent;
+    div {
+      height: 120px;
+      padding: 0;
+      font-size: 14px;
+      line-height: 120px;
+      background: #0092ff;
+      border-radius: 4px;
+    }
+  }
+}
+
+#components-grid-demo-flex,
+#grid-demo-flex-order,
+#components-grid-demo-flex-align,
+#grid-demo-flex-order {
+  [class~='ant-row'] {
+    background: rgba(128, 128, 128, 0.08);
+  }
+}

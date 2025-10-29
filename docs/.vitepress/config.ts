@@ -48,6 +48,7 @@ export default defineConfig({
         items: [
           { text: 'Divider 分割线', link: 'components/divider' },
           { text: 'Flex 弹性布局', link: 'components/flex' },
+          { text: 'Grid 栅格布局', link: 'components/grid' },
           { text: 'Splitter 分割面板', link: 'components/splitter' },
         ],
       },
