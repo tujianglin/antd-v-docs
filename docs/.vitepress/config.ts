@@ -58,7 +58,10 @@ export default defineConfig({
       {
         text: '导航',
         collapsed: false,
-        items: [{ text: 'Anchor 锚点', link: 'components/anchor' }],
+        items: [
+          { text: 'Anchor 锚点', link: 'components/anchor' },
+          { text: 'Breadcrumb 面包屑', link: 'components/breadcrumb' },
+        ],
       },
       {
         text: '数据录入',
