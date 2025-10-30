@@ -101,6 +101,7 @@ export default defineConfig({
           { text: 'Card 卡片', link: 'components/card' },
           { text: 'Collapse 折叠面板', link: 'components/collapse' },
           { text: 'Descriptions 描述列表', link: 'components/descriptions' },
+          { text: 'Empty 空状态', link: 'components/empty' },
         ],
       },
       {
