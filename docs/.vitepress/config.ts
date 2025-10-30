@@ -105,6 +105,7 @@ export default defineConfig({
           { text: 'Image 图片', link: 'components/image' },
           { text: 'Popover 气泡卡片', link: 'components/popover' },
           { text: 'QRCode 二维码', link: 'components/qrcode' },
+          { text: 'Segmented 分段控制器', link: 'components/segmented' },
         ],
       },
       {
