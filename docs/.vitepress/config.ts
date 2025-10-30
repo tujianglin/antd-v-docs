@@ -92,7 +92,17 @@ export default defineConfig({
         ],
       },
       {
-        text: '反馈组件',
+        text: '数据展示',
+        collapsed: false,
+        items: [{ text: 'Avatar 头像', link: 'components/avatar' }],
+      },
+      {
+        text: '反馈',
+        collapsed: false,
+        items: [],
+      },
+      {
+        text: '其他',
         collapsed: false,
         items: [],
       },
