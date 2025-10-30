@@ -50,6 +50,8 @@ export default defineConfig({
           { text: 'Flex 弹性布局', link: 'components/flex' },
           { text: 'Grid 栅格布局', link: 'components/grid' },
           { text: 'Layout 布局', link: 'components/layout' },
+          { text: 'Masonry 瀑布流', link: 'components/masonry' },
+          { text: 'Space 间距', link: 'components/space' },
           { text: 'Splitter 分割面板', link: 'components/splitter' },
         ],
       },
