@@ -64,6 +64,7 @@ export default defineConfig({
           { text: 'Dropdown 下拉菜单', link: 'components/dropdown' },
           { text: 'Menu 菜单', link: 'components/menu' },
           { text: 'Pagination 分页', link: 'components/pagination' },
+          { text: 'Steps 步骤条', link: 'components/steps' },
         ],
       },
       {
