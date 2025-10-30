@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
-.ant-col {
+.vp-doc._ui-docs_components_grid .ant-col {
   min-height: 30px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -10,7 +10,7 @@
   border-radius: 0px;
 }
 
-.ant-row {
+.vp-doc._ui-docs_components_grid .ant-row {
   div:not(.gutter-row) {
     padding: 16px 0px;
     background: rgb(22, 119, 255);
