@@ -104,6 +104,7 @@ export default defineConfig({
           { text: 'Empty 空状态', link: 'components/empty' },
           { text: 'Image 图片', link: 'components/image' },
           { text: 'Popover 气泡卡片', link: 'components/popover' },
+          { text: 'QRCode 二维码', link: 'components/qrcode' },
         ],
       },
       {
