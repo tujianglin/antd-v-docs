@@ -99,6 +99,7 @@ export default defineConfig({
           { text: 'Badge 徽标数', link: 'components/badge' },
           { text: 'Calendar 日历', link: 'components/calendar' },
           { text: 'Card 卡片', link: 'components/card' },
+          { text: 'Collapse 折叠面板', link: 'components/collapse' },
         ],
       },
       {
