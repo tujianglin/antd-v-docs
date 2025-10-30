@@ -61,6 +61,7 @@ export default defineConfig({
         items: [
           { text: 'Anchor 锚点', link: 'components/anchor' },
           { text: 'Breadcrumb 面包屑', link: 'components/breadcrumb' },
+          { text: 'Dropdown 下拉菜单', link: 'components/dropdown' },
         ],
       },
       {
