@@ -24,8 +24,8 @@ importers:
         specifier: ^13.5.0
         version: 13.5.0(vue@3.5.22(typescript@5.8.3))
       antd-v:
-        specifier: ^0.0.13
-        version: 0.0.13(typescript@5.8.3)
+        specifier: ^0.0.14
+        version: 0.0.14(typescript@5.8.3)
       axios:
         specifier: ^1.10.0
         version: 1.10.0
@@ -1443,8 +1443,8 @@ packages:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
 
-  antd-v@0.0.13:
-    resolution: {integrity: sha512-K/tWY49mqSFBh3mhWBvFFOJ5KLCNf2zwIrrz0v3cCwAH/Ekdr2g8SZAC7dANPIWsmQgowfT4ObOKdeRMA0eWxw==}
+  antd-v@0.0.14:
+    resolution: {integrity: sha512-tuggeOp7hwzdOHcUGbr/lVBRfit7/+5KyGwtW6JdE6v+UsKZ51y2A4rbJsRFrZL/59oqtEkh1fHdPjb2K0GCJQ==}
 
   anymatch@3.1.3:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
@@ -4794,7 +4794,7 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  antd-v@0.0.13(typescript@5.8.3):
+  antd-v@0.0.14(typescript@5.8.3):
     dependencies:
       '@ant-design/colors': 7.2.1
       '@ant-design/fast-color': 3.0.0

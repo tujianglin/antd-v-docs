@@ -1,11 +1,10 @@
 {
   "name": "tjl_ui",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && vue-tsc --project ./tsconfig.build.json --emitDeclarationOnly && tsc-alias -p tsconfig.build.json",
     "preview": "vite preview",
     "preinstall": "npx only-allow pnpm",
     "docs:dev": "vitepress dev docs",
@@ -13,16 +12,13 @@
     "docs:preview": "vitepress preview docs",
     "deploy": "gh-pages -d docs/.vitepress/dist"
   },
-  "imports": {
-    "#/*": "./src/*"
-  },
   "dependencies": {
     "@ant-design/colors": "^7.2.1",
     "@ant-design/icons-vue": "^7.0.1",
     "@theojs/lumen": "^6.4.4",
     "@vueuse/components": "^13.5.0",
     "@vueuse/core": "^13.5.0",
-    "antd-v": "^0.0.13",
+    "antd-v": "^0.0.14",
     "axios": "^1.10.0",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.18",

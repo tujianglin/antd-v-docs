@@ -65,6 +65,7 @@ export default defineConfig({
           { text: 'Menu 菜单', link: 'components/menu' },
           { text: 'Pagination 分页', link: 'components/pagination' },
           { text: 'Steps 步骤条', link: 'components/steps' },
+          { text: 'Tabs 标签页', link: 'components/tabs' },
         ],
       },
       {
