@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Splitter
+# Splitter 分割面板
 
 ## 何时使用
 

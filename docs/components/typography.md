@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Typography
+# Typography 排版
 
 ## 何时使用
 

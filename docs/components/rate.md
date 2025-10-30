@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Rate
+# Rate 评分
 
 ## 何时使用
 

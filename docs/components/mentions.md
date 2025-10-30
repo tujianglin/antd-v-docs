@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Mentions
+# Mentions 提及
 
 ## 何时使用
 

@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Divider
+# Divider 分割线
 
 ## 何时使用
 

@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# 复选框
+# Checkbox 复选框
 
 ## 何时使用
 

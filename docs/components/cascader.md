@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# 级联选择器
+# Cascader 级联选择器
 
 ## 何时使用
 

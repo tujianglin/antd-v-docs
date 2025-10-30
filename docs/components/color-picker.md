@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# ColorPicker
+# ColorPicker 颜色选择器
 
 ## 何时使用
 

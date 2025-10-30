@@ -63,6 +63,7 @@ export default defineConfig({
           { text: 'Breadcrumb 面包屑', link: 'components/breadcrumb' },
           { text: 'Dropdown 下拉菜单', link: 'components/dropdown' },
           { text: 'Menu 菜单', link: 'components/menu' },
+          { text: 'Pagination 分页', link: 'components/pagination' },
         ],
       },
       {

@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# InputNumber
+# InputNumber 数字输入框
 
 ## 何时使用
 

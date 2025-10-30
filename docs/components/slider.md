@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Slider
+# Slider 滑块输入条
 
 ## 何时使用
 

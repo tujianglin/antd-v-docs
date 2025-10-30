@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Switch
+# Switch 开关
 
 ## 何时使用
 
