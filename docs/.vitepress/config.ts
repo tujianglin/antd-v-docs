@@ -97,6 +97,7 @@ export default defineConfig({
         items: [
           { text: 'Avatar 头像', link: 'components/avatar' },
           { text: 'Badge 徽标数', link: 'components/badge' },
+          { text: 'Calendar 日历', link: 'components/calendar' },
         ],
       },
       {
