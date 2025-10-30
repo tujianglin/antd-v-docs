@@ -87,8 +87,8 @@ outline: deep
 | 参数      | 说明           | 类型                | 默认值 |
 | --------- | -------------- | ------------------- | ------ |
 | value     | 选择时填充的值 | string              | -      |
-| label     | 选项的标题     | React.VNode         | -      |
+| label     | 选项的标题     | VNode         | -      |
 | key       | 选项的 key 值  | string              | -      |
 | disabled  | 是否可选       | boolean             | -      |
 | class | css 类名       | string              | -      |
-| style     | 选项样式       | React.CSSProperties | -      |
+| style     | 选项样式       | CSSProperties | -      |
