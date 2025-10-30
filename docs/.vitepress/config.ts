@@ -102,6 +102,7 @@ export default defineConfig({
           { text: 'Collapse 折叠面板', link: 'components/collapse' },
           { text: 'Descriptions 描述列表', link: 'components/descriptions' },
           { text: 'Empty 空状态', link: 'components/empty' },
+          { text: 'Image 图片', link: 'components/image' },
         ],
       },
       {
