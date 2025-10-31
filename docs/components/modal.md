@@ -56,13 +56,13 @@ outline: deep
 
 <!-- <demo vue="modal/width.vue"></demo> -->
 
-<!-- ### 静态方法 -->
+### 静态方法
 
-<!-- <demo vue="modal/static-info.vue"></demo> -->
+<demo vue="modal/static-info.vue"></demo>
 
-<!-- ### 静态确认对话框 -->
+### 静态确认对话框
 
-<!-- <demo vue="modal/confirm.vue"></demo> -->
+<demo vue="modal/confirm.vue"></demo>
 
 <!-- ### 自定义内部模块 class -->
 
