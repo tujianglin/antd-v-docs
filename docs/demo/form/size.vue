@@ -1,6 +1,7 @@
 <script lang="tsx">
 import { defineComponent, ref } from 'vue';
 import { Button, Cascader, DatePicker, Form, Input, InputNumber, Radio, Select, Switch, TreeSelect } from 'antd-v';
+// @ts-ignore 11
 import type { SizeType } from 'node_modules/antd-v/dist/components/config-provider/SizeContext';
 
 export default defineComponent({
