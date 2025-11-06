@@ -33,7 +33,7 @@ const NumericInput = (props: any) => {
   );
 
   return (
-    <Tooltip trigger="focus" placement="topLeft" classNames="numeric-input" title={title}>
+    <Tooltip trigger="focus" placement="topLeft" class="numeric-input" title={title}>
       <Input {...props} onChange={handleChange} onBlur={handleBlur} maxlength={16}></Input>
     </Tooltip>
   );

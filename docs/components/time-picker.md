@@ -44,7 +44,7 @@ outline: deep
 
 ### 12 小时制
 
-<demo vue="time-picker/12hours.vue">12 </demo>
+<demo vue="time-picker/12hours.vue"></demo>
 
 ### 滚动即改变
 
