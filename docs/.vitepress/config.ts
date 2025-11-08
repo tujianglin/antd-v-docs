@@ -111,6 +111,7 @@ export default defineConfig({
           { text: 'QRCode 二维码', link: '/components/qrcode' },
           { text: 'Segmented 分段控制器', link: '/components/segmented' },
           { text: 'Statistic 统计数值', link: '/components/statistic' },
+          { text: 'Table 表格', link: '/components/table' },
           { text: 'Tag 标签', link: '/components/tag' },
           { text: 'Timeline 时间轴', link: '/components/timeline' },
           { text: 'Tooltip 提示', link: '/components/tooltip' },
