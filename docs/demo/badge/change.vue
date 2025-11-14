@@ -39,7 +39,7 @@ const random = () => {
       <Badge :dot="show">
         <Avatar shape="square" size="large" />
       </Badge>
-      <Switch v-model:checked="show" />
+      <Switch v-model:value="show" />
     </Space>
   </Space>
 </template>

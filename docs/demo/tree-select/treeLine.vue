@@ -47,13 +47,13 @@ const showIcon = ref<boolean>(false);
 </script>
 <template>
   <Space vertical>
-    <Switch checked-children="showIcon" un-checked-children="showIcon" v-model:checked="showIcon" />
-    <Switch checked-children="treeLine" un-checked-children="treeLine" v-model:checked="treeLine" />
+    <Switch checked-children="showIcon" un-checked-children="showIcon" v-model:value="showIcon" />
+    <Switch checked-children="treeLine" un-checked-children="treeLine" v-model:value="treeLine" />
     <Switch
       :disabled="!treeLine"
       checked-children="showLeafIcon"
       un-checked-children="showLeafIcon"
-      v-model:checked="showLeafIcon"
+      v-model:value="showLeafIcon"
     />
     <TreeSelect
       :tree-line="{ showLeafIcon }"

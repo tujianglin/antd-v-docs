@@ -30,7 +30,7 @@ export default defineComponent({
         <Switch
           checkedChildren="Auto"
           unCheckedChildren="Auto"
-          v-model:checked={auto.value}
+          v-model:value={auto.value}
           onChange={() => {
             percent.value = percent.value - 50;
           }}

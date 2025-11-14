@@ -44,6 +44,6 @@ onMounted(() => {
       pagination
     />
     <br />
-    <Switch un-checked-children="one way" checked-children="one way" v-model:checked="oneWay" />
+    <Switch un-checked-children="one way" checked-children="one way" v-model:value="oneWay" />
   </div>
 </template>

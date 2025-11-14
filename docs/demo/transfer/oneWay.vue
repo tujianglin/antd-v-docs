@@ -35,6 +35,6 @@ const disabled = ref(false);
       one-way
       style="margin-bottom: 16px"
     />
-    <Switch un-checked-children="disabled" checked-children="disabled" v-model:checked="disabled" />
+    <Switch un-checked-children="disabled" checked-children="disabled" v-model:value="disabled" />
   </div>
 </template>

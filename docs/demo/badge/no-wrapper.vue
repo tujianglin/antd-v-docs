@@ -7,7 +7,7 @@ const show = ref(true);
 </script>
 <template>
   <Space>
-    <Switch v-model:checked="show" />
+    <Switch v-model:value="show" />
     <Badge :count="show ? 11 : 0" show-zero color="#faad14" />
     <Badge :count="show ? 25 : 0" />
     <Badge :count="show ? h(ClockCircleOutlined, { style: { color: '#f5222d' } }) : 0" />

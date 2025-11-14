@@ -113,7 +113,7 @@ export default defineComponent({
     return () => (
       <>
         <Space align="center" style={{ marginBottom: '16px' }}>
-          CheckStrictly: <Switch v-model:checked={checkStrictly.value} />
+          CheckStrictly: <Switch v-model:value={checkStrictly.value} />
         </Space>
         <Table columns={columns} rowSelection={{ ...rowSelection, checkStrictly: checkStrictly.value }} dataSource={data} />
       </>

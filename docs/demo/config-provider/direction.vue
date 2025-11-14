@@ -452,7 +452,7 @@ const Page = defineComponent({
               </Col>
               <Col span={12}>
                 <Divider titlePlacement="start">Badge example</Divider>
-                <Badge count={badgeCount}>
+                <Badge count={badgeCount.value}>
                   <a href="#" class="head-example" />
                 </Badge>
                 <Space.Compact>
