@@ -22,7 +22,7 @@ const popupRender = (menu) => (
     {menu}
     <Divider style={{ margin: '8px 0' }} />
     <Space style={{ padding: '0 8px 4px' }}>
-      <Input placeholder="Please enter item" ref={inputRef} v-model:value={name.value} onKeydown={(e) => e.stopPropagation()} />
+      <Input placeholder="Please enter item" ref={inputRef} v-model:value={name.value} onKeyDown={(e) => e.stopPropagation()} />
       <Button type="text" icon={<PlusOutlined />} onClick={addItem}>
         Add item
       </Button>

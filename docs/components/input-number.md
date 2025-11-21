@@ -46,6 +46,10 @@ outline: deep
 
 <demo vue="input-number/variant.vue" version="5.13.0"></demo>
 
+### 拨轮
+
+<demo vue="input-number/spinner.vue" version="6.0.0"></demo>
+
 ### 超出边界
 
 <demo vue="input-number/out-of-range.vue"></demo>

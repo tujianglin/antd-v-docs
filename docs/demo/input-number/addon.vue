@@ -1,9 +1,8 @@
 <script setup lang="tsx">
 import { SettingOutlined } from '@ant-design/icons-vue';
 import { Cascader, InputNumber, Select, Space } from 'antd-v';
-import { h } from 'vue';
 
-const selectBefore = (
+const SelectBefore = (
   <Select
     style={{ width: `${60}px` }}
     value="add"
@@ -14,7 +13,7 @@ const selectBefore = (
   ></Select>
 );
 
-const selectAfter = (
+const SelectAfter = (
   <Select
     style={{ width: `${60}px` }}
     value="USD"
@@ -30,11 +29,24 @@ const selectAfter = (
 
 <template>
   <Space vertical>
-    <InputNumber addon-before="+" addon-after="$" :value="100" />
-    <InputNumber :addon-before="selectBefore" :addon-after="selectAfter" :value="100" />
-    <InputNumber :addon-after="() => h(SettingOutlined)" :value="100" />
-    <InputNumber :addon-before="() => h(Cascader, { placeholder: 'cascader', style: { width: '150px' } })" :value="100" />
-    <InputNumber addon-before="+" :addon-after="() => h(SettingOutlined)" :value="100" :disabled="true" controls />
-    <InputNumber prefix="¥" addon-before="+" :addon-after="() => h(SettingOutlined)" :value="100" :disabled="true" controls />
+    <Space.Compact>
+      <Space.Addon>+</Space.Addon>
+      <InputNumber :value="100" />
+      <Space.Addon>$</Space.Addon>
+    </Space.Compact>
+    <Space.Compact>
+      <SelectBefore />
+      <InputNumber :value="100" />
+      <SelectAfter />
+    </Space.Compact>
+
+    <Space.Compact>
+      <InputNumber :value="100" />
+      <Space.Addon> <SettingOutlined /></Space.Addon>
+    </Space.Compact>
+    <Space.Compact>
+      <Cascader placeholder="cascader" style="width: 150px" />
+      <InputNumber :value="100" />
+    </Space.Compact>
   </Space>
 </template>
