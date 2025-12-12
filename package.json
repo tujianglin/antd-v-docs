@@ -18,7 +18,7 @@
     "@theojs/lumen": "^6.4.4",
     "@vueuse/components": "^13.5.0",
     "@vueuse/core": "^13.5.0",
-    "antd-v": "6.0.0-alpha.9",
+    "antd-v": "^6.1.0",
     "axios": "^1.10.0",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.18",

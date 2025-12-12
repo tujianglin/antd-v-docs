@@ -24,8 +24,8 @@ importers:
         specifier: ^13.5.0
         version: 13.5.0(vue@3.5.22(typescript@5.8.3))
       antd-v:
-        specifier: 6.0.0-alpha.9
-        version: 6.0.0-alpha.9(typescript@5.8.3)
+        specifier: ^6.1.0
+        version: 6.1.0(vue@3.5.22(typescript@5.8.3))
       axios:
         specifier: ^1.10.0
         version: 1.10.0
@@ -1443,8 +1443,8 @@ packages:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
 
-  antd-v@6.0.0-alpha.9:
-    resolution: {integrity: sha512-1vheU4Zyu/wyIOYKntYvaDjxEhB9TQ2oGbx8OkCBQQ1pyNkbnHxxtT3ABjDjs+/Trg2qSx87NW0Tra3bvhEoPA==}
+  antd-v@6.1.0:
+    resolution: {integrity: sha512-skyB4aGApEcKacOj58FS8QYcvYDHfHEd14SEMCBBrFbzEKcGH0ZMd00KKrccl8nHwX0x5H+Jd9IVSGwY8yWN4A==}
 
   anymatch@3.1.3:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
@@ -1798,8 +1798,8 @@ packages:
     resolution: {integrity: sha512-j6vWzfrGVfyXxge+O0x5sh6cvxAog0a/4Rdd2K36zCMV5eJ+/+tOAngRO8cODMNWbVRdVlmGZQL2YS3yR8bIUA==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.41.0:
-    resolution: {integrity: sha512-bDd3oRmbVgqZCJS6WmeQieOrzpl3URcWBUVDXxOELlUW2FuW+0glPOz1n0KnRie+PdyvUZcXz2sOn00c6pPRIA==}
+  es-toolkit@1.43.0:
+    resolution: {integrity: sha512-SKCT8AsWvYzBBuUqMk4NPwFlSdqLpJwmy6AP322ERn8W2YLIB6JBXnwMI2Qsh2gfphT3q7EKAxKb23cvFHFwKA==}
 
   esbuild@0.25.5:
     resolution: {integrity: sha512-P8OtKZRv/5J5hhz0cUAdu/cLuPIKXpQl1R9pZtvmHWQvrAUVd0UNIPT4IB4W3rNOqVO0rlqHmCIbSwxh/c9yUQ==}
@@ -4797,7 +4797,7 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  antd-v@6.0.0-alpha.9(typescript@5.8.3):
+  antd-v@6.1.0(vue@3.5.22(typescript@5.8.3)):
     dependencies:
       '@ant-design/colors': 7.2.1
       '@ant-design/fast-color': 3.0.0
@@ -4809,15 +4809,14 @@ snapshots:
       clsx: 2.1.1
       copy-to-clipboard: 3.3.3
       dayjs: 1.11.18
-      es-toolkit: 1.41.0
+      es-toolkit: 1.43.0
       is-mobile: 5.0.0
       scroll-into-view-if-needed: 3.1.0
       tailwindcss: 4.1.11
       throttle-debounce: 5.0.2
       tw-animate-css: 1.3.4
-      vue: 3.5.22(typescript@5.8.3)
     transitivePeerDependencies:
-      - typescript
+      - vue
 
   anymatch@3.1.3:
     dependencies:
@@ -5143,7 +5142,7 @@ snapshots:
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
-  es-toolkit@1.41.0: {}
+  es-toolkit@1.43.0: {}
 
   esbuild@0.25.5:
     optionalDependencies:
